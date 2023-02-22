@@ -1,0 +1,113 @@
+1. Explain two criteria on which networks can be classified. 
+  a. Scale    : Based on their geographical coverage, number of devices and users, and traffic volume.
+  b. Topology : Based on the logical and physical arrangements of network connections.
+
+2. Explain the sub criteria for each of these criteria
+  a. Scale:
+   • Geographical coverage        : LAN, MAN, WAN, Global Area Network (GAN)
+   • Number of devices and users  : Personal Area Network, Home Area Network, Enterprise Network, Campus Network, etc.
+   • Traffic volume               : Low data rate (LDTR), High data rate (HDTR), Ultra-High data rate (UHDTR)
+
+  b. Topology:
+   • Physical topology : Bus, Star, Ring, Mesh, Tree, Hybrid
+   • Logical topology  : Broadcast, Token Passing, Circuit Switching, Packet Switching, Message Passing
+
+3. What is physical topology of a network?
+   • The actual physical arrangement of the devices and cables in the network.
+   • It describes how the devices are physically connected to one another.
+
+4. What is the logical topology of a network?
+   • The way that data is transmitted between devices in a network.
+   • It describes the logical paths that data follows when it is transmitted between devices.
+
+5. List and explain 3 advanced network topologies used in HPC
+  a) Fat-Tree topology   : Can handle a large amount of data traffic, commonly used in data centers.
+  b) Hypercube topology  : Uses binary encoding to create a network of nodes arranged in a hypercube shape.
+  c) Torus topology      : Uses a grid of interconnected nodes, with wraparound connections to form a torus shape.
+
+6. List and explain the 4 main elements of network communication
+    1) Message        : The data being sent
+    2) Source         : The device sending the message
+    3) Destination    : The device receiving the message
+    4) Medium/Channel : The physical path the message travels (wire, fiber, air, etc.)
+
+7. List and differentiate between 2 intermediate network devices 
+  a) Hub     : Connects multiple devices on a network and broadcasts data to all connected devices.
+  b) Bridge  : Connects two separate network segments and filters data to prevent unnecessary traffic.
+
+8. Explain the process used by a router and a switch
+  • Process used by a switch
+    i)   The switch reverses bits       (due to big/little endianness)
+    ii)  Decodes the ethernet frame     (reads source/destination MAC)
+    iii) Checks FCS - Discard if errors (verifies frame integrity)
+    iv)  Check source MAC address       (update if not present)
+    v)   Check MAC address table for MAC
+          • If present, forward to port
+          • If not present, flood to all ports
+
+  • Process used by a router
+    i)   Router receives data                     (from switch or other router)
+    ii)  Encode bits to create frame              (add a header and a trailer)
+    iii) Check destination MAC and FCS            (verify frame integrity)
+    iv)  Decapsulate the frame to get the packet  (remove header and trailer)
+    v)   Check destination IP and routing table
+          • If not found, send error message
+          • If found:
+            • Encapsulate packet into frame       (add header and trailer)
+            • Transmit frame through correct port (based on MAC address and routing table)
+
+9. What is network media. Explain how it can be classified
+  • The physical channels or communication paths used to transmit data between devices on a network.
+  • They can be classified as:
+      a) Unguided (wireless)
+      b) Guided (wired)
+
+10. Explain what traditional and converged networks and are differentiate between the two
+  a) Traditional Networks : Uses different technologies, protocols, and devices for each type of network traffic
+  b) Converged Networks   : Uses the same technology, protocol, and device for all types of network traffic
+
+11. List and explain the 4 characteristics of reliable networks
+    a) Fault Tolerance          : Continue operating even if some of its components fail
+    b) Scalability              : Grow in size and complexity without losing performance
+    c) Security                 : Protect its data from unauthorized access
+    d) Quality of Service (QoS) : Provide different levels of service to different types of traffic
+
+12. What are network protocols and why are they important?
+  • They are a set of rules and standards that govern the formatting, transmission, and receipt of data on a network.
+  • Network protocols are important because they help to:
+      a) Establish and maintain the rules for communication 
+      b) Ensure that data is transmitted securely and efficiently.
+
+13. What are reference and layered models and why are they important?
+  • A conceptual framework that provides a common language and structure for network communication
+  • It is used to understand how different components of a network work together to transfer data between devices
+  • Such a model typically defines:
+      a) The format/structure of a message
+      b) How networking devices share pathway information
+      c) How and when error/system messages are generated
+      d) The setup and termination of a connection
+
+  ‣ Some benefits of using a layered model are:
+    • Provides a common language                        (e.g. "layer 1" means the same thing to everyone)
+    • Eliminates competition between different vendors  (e.g. all vendors use the same model)
+    • Changes in one layer do not affect other layers   (e.g. changes in layer 1 do not affect layer 2)
+
+14. Explain and differentiate between the TCP/IP and OSI 7-layer models.
+
+  a) ISO/OSI Model
+    1) Application Layer  : Provides services to applications (e.g. HTTP, FTP, SMTP, etc.)
+    2) Presentation Layer : Formatting data for presentation to the application layer (e.g. encryption, compression)
+    3) Session Layer      : Responsible for establishing and managing connections between devices
+    4) Transport Layer    : Ensuring reliable delivery by including error detection and correction (e.g. TCP, UDP)
+    5) Network Layer      : Routes data packets between devices on different networks (e.g. IP, ICMP, etc.)
+    6) Data Link Layer    : Transfers data frames between devices over a physical link (Ethernet, Wi-Fi)
+    7) Physical Layer     : Transfers bits over a physical medium, such as a cable or wireless connection (copper, fiber)
+
+  b) TCP/IP Model
+    1) Application Layer    : Protocols that support specific network applications (e.g. HTTP, FTP, SMTP, etc.)
+    2) Transport Layer      : Ensuring reliable delivery by including error detection and correction (e.g. TCP, UDP)
+    3) Internet Layer       : Routes data packets between devices on different networks (e.g. IP, ICMP, etc.)
+    4) Network Access Layer : Transfers data frames between devices over a physical link (Ethernet, Wi-Fi)
+
+  • The TCP/IP model is more streamlined and better suited for modern networks
+  • The OSI model is more theoretical and has less practical application in modern network design.

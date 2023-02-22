@@ -1,0 +1,36 @@
+Risk: A situation involving exposure to danger
+Risk Assessment: Refers to the first 3 processes of the risk management process (identification, analysis, evaluation)
+Information Assurance (IA): Ensuring the confidentiality, integrity, and availability of information systems.
+
+Risk Management Processes:
+  1) Risk Identification
+    • Identifying potential risks to an organization and determining which ones need to be prioritized for analysis.
+
+  2) Risk Analysis
+    • The identified risks will be studied to find out their impact & possibility of occurence.
+
+  3) Risk Evaluation
+    • Risks are assigned a risk score based on their severity
+    • Risk scores are considered as priority levels when selecting countermeasures
+
+  4) Select Countermeasures
+    • The risks are evaluated and countermeasures are selected to reduce the risk to an acceptable level
+
+The standard risk management procedure:
+  i)    Identify critical assets              : Find out which assets are the most important to the organization.
+  ii)   Identify security requirements        : Find out what security requirements (CIA) are needed to protect the asset.
+  iii)  Identify threats and vulnerabilities  : Find out what threats are present that could compromise the assets.
+  iv)   Conduct risk analysis                 : Find out what the risks are and how they can be mitigated.
+  v)    Develop a mitigation plan             : Develop a plan to get rid of the risks.
+
+There are ways to approach risk assesment:
+  1) Quantitative Risk Assessment: Using mathematical/statistical formulas to calculate the risk
+  2) Qualitative Risk Assessment: Using a subjective approach to discover risk (expert opinions, past experience, etc.)
+
+Responsibilities Of A Chief Information Security Officer (CISO):
+  i)    Risk Management 					  : Coordinate and teach employees how to perform risk management.
+  ii)   Compliance		  					  : Ensuring that the organization follows all applicable laws and regulations.
+  iii)  Documentation   					  : Write and maintain security policies and procedures.
+  iv)   Security Awareness Training : Training employees on security policies and procedures.
+  v)    Asset Management					  : Managing the organization's assets (hardware, software, etc.)
+  vi)   Incident Response / BCP     : Responding to security incidents and developing a business continuity plan.

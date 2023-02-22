@@ -1,0 +1,34 @@
+a) Fully-connected / mesh topology: All nodes are connected to each other
+   • Used in applications where high-reliability and fault-tolerance is needed
+   • Can be expensive to implement as multiple links are required to connect all nodes
+
+b) Bus topology: All nodes are connected to a single cable (backbone/bus)
+   • Data is sent through the backbone, nodes decide whether to accept or reject the data
+   • Performance will drop when the number of nodes increases
+   • Used in applications where a small number of devices are required (classrooms, small offices, etc.)
+
+c) Star topology: All nodes are connected to a central hub/switch, forming a star shape
+   • Data is sent to the hub/switch, which then sends it to the correct node
+   • The performance of the network is bottlenecked by the performance of the switch/hub
+   • Used in small/medium-sized networks where the central hub can handle the traffic
+
+d) Ring topology: Devices are connected to form a circular loop or ring. Each device is connected to two other devices, forming a continuous pathway for data to travel around the ring.
+   • Data travels in one direction around the ring, sent from one device to the next until it reaches its destination
+   • Not reliable as a single fault can cause the entire ring to fail
+
+e) Tree topology: Devices are arranged in a hierarchical tree structure
+   • Devices are connected to a central hub or switch, which serves as the root of the tree
+   • Each device can be connected to multiple other devices, which may contain additional hubs/switches, forming a tree.
+   • Data is sent to the root of the tree and to its branches
+   • Provides scalability (can add hubs as needed) & fault-tolerance (branaches can fail, but not the entire network)
+
+f) Hybrid topology: A combination of two or more topologies
+
+g) Dual ring topology: A ring topology but with two rings (connections). Data is sent in both directions around each ring
+   • Provides a more reliable network as an additional ring (connection) is available even if one ring fails
+   • Used in mission-critical applications where high reliability is required (e.g. financial institutions)
+
+h) Linear topology: Devices are connected in a linear fashion (e.g. a line of devices)
+   • Data is sent from one device to the next until it reaches its destination
+   • Not reliable as a single fault can cause the entire line to fail
+

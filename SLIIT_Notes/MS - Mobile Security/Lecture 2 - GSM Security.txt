@@ -1,0 +1,121 @@
+Global System for Mobile Communications (GSM): A network architecture that provides mobile communication services
+
+Components of GSM:
+  1) Mobile Station (ME)                : The actual mobile phone system
+    a) Mobile Equipment (ME)            : The physical components of the mobile phone (display, keypad, microphone, etc.)
+    b) Subscriber Identity Module (SIM) : A smart card that stores user data & the needed algorithms for authentication
+
+  2) Base Station Subsystem (BSS)       : Handles the radio interface between the phone and the network
+
+    a) Base Transceiver Station (BTS)   : The physical signal tower that sends/receives radio signals to/from the phone
+      ‣ It is responsible for modulating/demodulating (converts analog to digital and vice versa) signals to/from the phone
+      ‣ When a request to make a call is made, the MS sends a request to the BTS to create the call
+
+    b) Base Station Controller (BSC)    : A device that manages and controls multiple BTSs
+      ‣ It is responsible for paging the MS when there is an incoming call (sending a signal to the MS to wake it up)
+      ‣ It is responsible for handover (transfer of a call from one BTS to another) when the MS moves to a new BTS
+
+  3) Network & Switching Subsystem (NSS): Responsible for core network functions and switching/routing of calls 
+
+    a) Mobile Switching Center (MSC)    : A phone switching center that handles call routing and switching
+      ‣ The wired backbone of the GSM network which connects all the MSCs together
+      ‣ When a user makes a call/message, the MSC is responsible for routing it to the right destination
+
+    b) Home Location Register (HLR)     : A database that stores the user's identity/location information
+      ‣ The central database of all users on the GSM network
+      ‣ HLR stores the IMSI (International Mobile Subscriber Identity) and static data of each user
+
+    c) Visitor Location Register (VLR)  : A temporary database that stores data of new users who roam into the network
+      ‣ When an MS enters a new geographic area/network, the VLR looks for the user's information in the central HLR
+      ‣ It then stores a temporary copy of that infromation in the VLR
+      ‣ For example, if Ananda, a Mobitel user, goes to Australia and switches on his phone:
+          • The phone sees the available networks and sends a request to the Vodafone network in Australia.
+          • Vodafone sends a request to Mobitel's HLR as Ananda's SIM is not registered with the Vodafone network.
+          • Mobitel's HLR sends the subscriber information to Vodafone.
+          • Vodafone now stores this information in it's VLR, enabling Ananda to roam to Australia and make calls.
+
+    d) Authentication Center (AUC)      : Stores the user's authentication information
+      ‣ The AUC is responsible for authenticating the user's identity
+      ‣ It is associated with the HLR (which stores the user's identity information)
+
+    e) Equipment Identity Register (EIR): Stores the user's equipment information
+      ‣ The EIR is a database which stores the user's equipment (ME) information (IMEI number)
+      ‣ It is located in the HLR (which stores the user's identity information)
+
+Gaussian minimum-shift keying (GMSK): A modulation technique used in GSM (converts analog signals to digital signals)
+  ‣ Data is converted to a binary stream of 0s and 1s, which is an analog signal, which cannot be sent over the air
+  ‣ For every 0, the carrier frequency is shifted down by a certain amount
+  ‣ For every 1, the carrier frequency is shifted up by a certain amount
+  ‣ This will result in a frequency wave that can be sent over the air
+
+Cellular Technologies:
+  1) 2G - 3G:
+      a) GPRS (General Packet Radio Service) - 2.5G
+      b) EDGE (Enhanced Data Rates for GSM Evolution) - 2.75G
+      c) UMTS (Universal Mobile Telecommunications System) - 3G
+
+  2) 4G - 5G
+      a) 4G HSPA+ (High Speed Packet Access)
+      b) 4G LTE (Long Term Evolution)
+
+GSM Authentication:
+  1) International Mobile Subscriber Identity (IMSI): A 15-digit number assigned to each SIM card
+      ‣ It is stored in the SIM card and is used to authenticate the user and is a permanent identifier.
+      ‣ The IMSI is sent out to a BTS when the user requests a service.
+      ‣ However, sending the IMSI every time a device communicates with the network can pose a privacy risk
+      ‣ It can be intercepted by a third party who may be able to track the user's location and other information
+      ‣ To combat this privacy problem, a Temporary Mobile Subscriber Identity (TMSI) is used instead.
+
+  2) Temporary Mobile Subscriber Identity (TMSI): Used instead of IMSI to ensure anonymity
+      ‣ The network assigns a TMSI to a user when the user first registers with the network.
+      ‣ Unlike an IMSI, the TMSI is temporary and is only valid for a certain period of time.
+      ‣ The TMSI is sent instead of the IMSI, and therefore the private IMSI is not sent out to the BTS.
+
+Security services provided in a SIM:
+  1) PIN (Personal Identification Number)
+      ‣ A user must enter a PIN before using the SIM card.
+      ‣ Once the PIN is entered, the SIM card is unlocked and the user can make calls, send messages, etc.
+
+  2) Network challenge and response
+      ‣ A shared secret key (Kᵢ) is available for each SIM which is stored securely in the AUC and in the SIM
+      ‣ The mobile phone sends it's IMSI to a BTS requesting to authenticate the user.
+      ‣ The IMSI is then forwarded from the BTS -> BSC -> MSC -> HLR/VLR -> AUC
+      ‣ The AUC generates a triplet (three random numbers) and stores it in the VLR
+          • RAND  (Random number)     - A random number generated by the AUC
+          • XRES  (Expected response) - Contains the result of the XOR operation between the Kᵢ and RAND
+          • Kᶜ    (Ciphering key)     - A key used to encrypt the data sent over the air
+      ‣ The MSC then sends only the RAND to the mobile phone
+      ‣ The mobile phone uses its Kᵢ to XOR the RAND and sends the result (RES) to the MSC
+      ‣ The MSC then compares the RES with the XRES stored in the VLR
+      ‣ If the both match, the user is authenticated
+      ┌─────┬──────────────────┬──────────────────┬──────────────────┐
+      │  #  │      Mobile      │       MSC        │       AUC        │
+      ├─────┼──────────────────┼──────────────────┼──────────────────┤
+      │  1  │    Sends IMSI    │                  │                  │
+      ├─────┼──────────────────┼──────────────────┼──────────────────┤
+      │  2  │                  │ Sends IMSI to    │                  │
+      │     │                  │ AUC              │                  │
+      ├─────┼──────────────────┼──────────────────┼──────────────────┤
+      │  3  │                  │                  │ Generates RAND,  │
+      │     │                  │                  │ XRES and Kᶜ      │
+      │     │                  │                  │ (triplet)        │
+      ├─────┼──────────────────┼──────────────────┼──────────────────┤
+      │  4  │                  │                  │ Stores RAND, XRES│
+      │     │                  │                  │ and Kᶜ in VLR    │
+      ├─────┼──────────────────┼──────────────────┼──────────────────┤
+      │  5  │                  │ Sends RAND to    │                  │
+      │     │                  │ mobile phone     │                  │
+      ├─────┼──────────────────┼──────────────────┼──────────────────┤
+      │  6  │ Uses its Kᵢ to   │                  │                  │
+      │     │ XOR the RAND and │                  │                  │
+      │     │ sends the RES    │                  │                  │
+      │     │ to MSC           │                  │                  │
+      ├─────┼──────────────────┼──────────────────┼──────────────────┤
+      │  7  │                  │ Compares RES     │                  │
+      │     │                  │ with XRES stored │                  │
+      │     │                  │ in VLR           │                  │
+      ├─────┼──────────────────┼──────────────────┼──────────────────┤
+      │  8  │                  │ If both match,   │                  │
+      │     │                  │ user is          │                  │
+      │     │                  │ authenticated    │                  │
+      └─────┴──────────────────┴──────────────────┴──────────────────┘

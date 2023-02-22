@@ -1,0 +1,83 @@
+╔══════════════╦══════════╦═══════════════════════╦═══════════════════════╦════════════════════════╗
+║ Layer        ║ Protocol ║ Purpose               ║ Common Uses           ║ Vulnerabilities        ║
+╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+║ Application  ║ HTTP     ║ Transferring          ║ Viewing web           ║ Man-in-the-middle      ║
+║              ║          ║ data over the         ║ pages,                ║ attacks,               ║
+║              ║          ║ web                   ║ submitting            ║ spoofing,              ║
+║              ║          ║                       ║ forms,                ║ injection              ║
+║              ║          ║                       ║ downloading           ║ attacks                ║
+║              ║          ║                       ║ files                 ║                        ║
+╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+║ Application  ║ FTP      ║ Transferring files    ║ Uploading and         ║ Brute-force attacks,   ║
+║              ║          ║ between systems       ║ downloading           ║ data interception,     ║
+║              ║          ║                       ║ files,                ║ FTP bounce             ║
+║              ║          ║                       ║ managing              ║ attacks                ║
+║              ║          ║                       ║ a web server          ║                        ║
+╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+║ Application  ║ DNS      ║ Resolving domain      ║ Translating domain    ║ DNS spoofing,          ║
+║              ║          ║ names to              ║ names to              ║ cache poisoning,       ║
+║              ║          ║ IP addresses          ║ IP addresses          ║ distributed            ║
+║              ║          ║                       ║                       ║ denial of              ║
+║              ║          ║                       ║                       ║ service (DDoS)         ║
+║              ║          ║                       ║                       ║ attacks                ║
+╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+║ Application  ║ SMTP     ║ Transferring          ║ Sending and           ║ Spam, phishing,        ║
+║              ║          ║ email between         ║ receiving email       ║ denial of service      ║
+║              ║          ║ email servers         ║ messages              ║ (DoS) attacks,         ║
+║              ║          ║                       ║                       ║ email spoofing         ║
+╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+║ Application  ║ Telnet   ║ Allowing remote       ║ Remote administration ║ Unencrypted            ║
+║              ║          ║ access to a           ║ of network            ║ transmissions,         ║
+║              ║          ║ command-line          ║ devices and servers   ║ unauthorized access,   ║
+║              ║          ║ interface             ║                       ║ session hijacking      ║
+╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+║ Application  ║ SSH      ║ Allowing remote       ║ Remote administration ║ Brute-force attacks,   ║
+║              ║          ║ access to a           ║ of network devices    ║ session hijacking,     ║
+║              ║          ║ command-line          ║ and servers           ║ weak passwords         ║
+║              ║          ║ interface securely    ║                       ║                        ║
+╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+║ Presentation ║ SSL/TLS  ║ Providing secure      ║ Encrypting data       ║ Man-in-the-middle      ║
+║              ║          ║ communication         ║ in transit,           ║ attacks, weak          ║
+║              ║          ║ over a network        ║ verifying server      ║ encryption, session    ║
+║              ║          ║                       ║ authenticity          ║ hijacking,             ║
+║              ║          ║                       ║                       ║ impersonation attacks  ║
+╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+║ Transport    ║ TCP      ║ Providing reliable,   ║ Facilitating          ║ SYN flooding,          ║
+║              ║          ║ ordered data delivery ║ communication         ║ session hijacking,     ║
+║              ║          ║                       ║ between applications  ║ denial of service      ║
+║              ║          ║                       ║                       ║ (DoS) attacks,         ║
+║              ║          ║                       ║                       ║ TCP/IP spoofing        ║
+╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+║ Transport    ║ UDP      ║ Providing fast,       ║ Streaming video       ║ UDP flooding,          ║
+║              ║          ║ unreliable data       ║ and audio,            ║ denial of service      ║
+║              ║          ║ delivery              ║ online gaming         ║ (DoS) attacks,         ║
+║              ║          ║                       ║                       ║ UDP scanning           ║
+╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+║ Internet     ║ IP       ║ Routing data          ║ Facilitating          ║ IP spoofing,           ║
+║              ║          ║ packets between       ║ communication         ║ packet sniffing,       ║
+║              ║          ║ networks              ║ between networks      ║ denial of service      ║
+║              ║          ║                       ║                       ║ (DoS) attacks          ║
+╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+║ Internet     ║ ARP      ║ Resolving IP          ║ Facilitating          ║ ARP spoofing,          ║
+║              ║          ║ addresses to          ║ communication         ║ cache poisoning,       ║
+║              ║          ║ MAC addresses         ║ between network       ║ denial of service      ║
+║              ║          ║                       ║ devices               ║ (DoS) attacks          ║
+╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+║ Data-Link    ║ Ethernet ║ Transferring data     ║ Facilitating          ║ MAC spoofing,          ║
+║              ║          ║ between devices       ║ communication         ║ man-in-the-middle      ║
+║              ║          ║ on the same network   ║ between devices       ║ attacks, denial        ║
+║              ║          ║                       ║ on a LAN              ║ of service             ║
+║              ║          ║                       ║                       ║ (DoS) attacks,         ║
+║              ║          ║                       ║                       ║ Ethernet header        ║
+║              ║          ║                       ║                       ║ manipulation           ║
+╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+║ Physical     ║ Wi-Fi    ║ Wirelessly            ║ Connecting devices    ║ Eavesdropping,         ║
+║              ║          ║ connecting            ║ to a wireless LAN     ║ man-in-the-middle      ║
+║              ║          ║ devices on            ║                       ║ attacks, Wi-Fi         ║
+║              ║          ║ a network             ║                       ║ Protected Access       ║
+║              ║          ║                       ║                       ║ (WPA) and Wired        ║
+║              ║          ║                       ║                       ║ Equivalent Privacy     ║
+║              ║          ║                       ║                       ║ (WEP) vulnerabilities, ║
+║              ║          ║                       ║                       ║ denial of service      ║
+║              ║          ║                       ║                       ║ (DoS) attacks          ║
+╚══════════════╩══════════╩═══════════════════════╩═══════════════════════╩════════════════════════╝
