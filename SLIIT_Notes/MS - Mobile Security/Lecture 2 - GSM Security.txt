@@ -119,3 +119,28 @@ Security services provided in a SIM:
       │     │                  │ user is          │                  │
       │     │                  │ authenticated    │                  │
       └─────┴──────────────────┴──────────────────┴──────────────────┘
+
+Encryption in GSM (A5 Algorithm):
+  ‣ Data transmitted through air between the MS and BSS is encrypted using the A5 algorithm
+  ‣ The A5 algorithm is a stream cipher which uses a 64-bit key (Kᶜ) to encrypt the data
+
+  Components of the A5 keystream (Kᶜ):
+    a) Session key: A temporary key which is generated every time a new call to the network is made
+      ‣ When authentication is successful, the MSC sends the Kᶜ to the mobile phone
+      ‣ It is used to encrypt the data sent over the air
+
+    b) Frame key: A key generated using the frame number and the session key to encrypt entire 114-bit frames
+      ‣ GSM frames are sent in 114-bit blocks, each block is encrypted with a frame key (session key + frame number)
+      ‣ If data of size 1140 bits were to be sent over the network:
+        i)    The first 114 bits of data will be encrypted using the session key (Kᶜ) and the frame number (1)
+        ii)   The next 114 bits of data will be encrypted using the session key (Kᶜ) and the frame number (2)
+        iii)  This goes on until all the data is sent
+
+Two ways to break GSM:
+  1) Active intercept: Setting up a fake BTS and intercepting the data
+      ‣ This involves creating a fake BTS with a stronger signal than the real BTS
+      ‣ The victim MS connect to the fake BTS, which will expose the session key and the frame key
+
+  2) Passive intercept: Listening to the data sent over the air
+      ‣ An attacker could eavesdrop and record the data sent over the air between the victim MS and the BTS
+      ‣ The attacker can then attempt to recover the session key and the frame key
