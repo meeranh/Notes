@@ -1,83 +1,213 @@
-╔══════════════╦══════════╦═══════════════════════╦═══════════════════════╦════════════════════════╗
-║ Layer        ║ Protocol ║ Purpose               ║ Common Uses           ║ Vulnerabilities        ║
-╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
-║ Application  ║ HTTP     ║ Transferring          ║ Viewing web           ║ Man-in-the-middle      ║
-║              ║          ║ data over the         ║ pages,                ║ attacks,               ║
-║              ║          ║ web                   ║ submitting            ║ spoofing,              ║
-║              ║          ║                       ║ forms,                ║ injection              ║
-║              ║          ║                       ║ downloading           ║ attacks                ║
-║              ║          ║                       ║ files                 ║                        ║
-╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
-║ Application  ║ FTP      ║ Transferring files    ║ Uploading and         ║ Brute-force attacks,   ║
-║              ║          ║ between systems       ║ downloading           ║ data interception,     ║
-║              ║          ║                       ║ files,                ║ FTP bounce             ║
-║              ║          ║                       ║ managing              ║ attacks                ║
-║              ║          ║                       ║ a web server          ║                        ║
-╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
-║ Application  ║ DNS      ║ Resolving domain      ║ Translating domain    ║ DNS spoofing,          ║
-║              ║          ║ names to              ║ names to              ║ cache poisoning,       ║
-║              ║          ║ IP addresses          ║ IP addresses          ║ distributed            ║
-║              ║          ║                       ║                       ║ denial of              ║
-║              ║          ║                       ║                       ║ service (DDoS)         ║
-║              ║          ║                       ║                       ║ attacks                ║
-╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
-║ Application  ║ SMTP     ║ Transferring          ║ Sending and           ║ Spam, phishing,        ║
-║              ║          ║ email between         ║ receiving email       ║ denial of service      ║
-║              ║          ║ email servers         ║ messages              ║ (DoS) attacks,         ║
-║              ║          ║                       ║                       ║ email spoofing         ║
-╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
-║ Application  ║ Telnet   ║ Allowing remote       ║ Remote administration ║ Unencrypted            ║
-║              ║          ║ access to a           ║ of network            ║ transmissions,         ║
-║              ║          ║ command-line          ║ devices and servers   ║ unauthorized access,   ║
-║              ║          ║ interface             ║                       ║ session hijacking      ║
-╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
-║ Application  ║ SSH      ║ Allowing remote       ║ Remote administration ║ Brute-force attacks,   ║
-║              ║          ║ access to a           ║ of network devices    ║ session hijacking,     ║
-║              ║          ║ command-line          ║ and servers           ║ weak passwords         ║
-║              ║          ║ interface securely    ║                       ║                        ║
-╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
-║ Presentation ║ SSL/TLS  ║ Providing secure      ║ Encrypting data       ║ Man-in-the-middle      ║
-║              ║          ║ communication         ║ in transit,           ║ attacks, weak          ║
-║              ║          ║ over a network        ║ verifying server      ║ encryption, session    ║
-║              ║          ║                       ║ authenticity          ║ hijacking,             ║
-║              ║          ║                       ║                       ║ impersonation attacks  ║
-╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
-║ Transport    ║ TCP      ║ Providing reliable,   ║ Facilitating          ║ SYN flooding,          ║
-║              ║          ║ ordered data delivery ║ communication         ║ session hijacking,     ║
-║              ║          ║                       ║ between applications  ║ denial of service      ║
-║              ║          ║                       ║                       ║ (DoS) attacks,         ║
-║              ║          ║                       ║                       ║ TCP/IP spoofing        ║
-╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
-║ Transport    ║ UDP      ║ Providing fast,       ║ Streaming video       ║ UDP flooding,          ║
-║              ║          ║ unreliable data       ║ and audio,            ║ denial of service      ║
-║              ║          ║ delivery              ║ online gaming         ║ (DoS) attacks,         ║
-║              ║          ║                       ║                       ║ UDP scanning           ║
-╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
-║ Internet     ║ IP       ║ Routing data          ║ Facilitating          ║ IP spoofing,           ║
-║              ║          ║ packets between       ║ communication         ║ packet sniffing,       ║
-║              ║          ║ networks              ║ between networks      ║ denial of service      ║
-║              ║          ║                       ║                       ║ (DoS) attacks          ║
-╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
-║ Internet     ║ ARP      ║ Resolving IP          ║ Facilitating          ║ ARP spoofing,          ║
-║              ║          ║ addresses to          ║ communication         ║ cache poisoning,       ║
-║              ║          ║ MAC addresses         ║ between network       ║ denial of service      ║
-║              ║          ║                       ║ devices               ║ (DoS) attacks          ║
-╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
-║ Data-Link    ║ Ethernet ║ Transferring data     ║ Facilitating          ║ MAC spoofing,          ║
-║              ║          ║ between devices       ║ communication         ║ man-in-the-middle      ║
-║              ║          ║ on the same network   ║ between devices       ║ attacks, denial        ║
-║              ║          ║                       ║ on a LAN              ║ of service             ║
-║              ║          ║                       ║                       ║ (DoS) attacks,         ║
-║              ║          ║                       ║                       ║ Ethernet header        ║
-║              ║          ║                       ║                       ║ manipulation           ║
-╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
-║ Physical     ║ Wi-Fi    ║ Wirelessly            ║ Connecting devices    ║ Eavesdropping,         ║
-║              ║          ║ connecting            ║ to a wireless LAN     ║ man-in-the-middle      ║
-║              ║          ║ devices on            ║                       ║ attacks, Wi-Fi         ║
-║              ║          ║ a network             ║                       ║ Protected Access       ║
-║              ║          ║                       ║                       ║ (WPA) and Wired        ║
-║              ║          ║                       ║                       ║ Equivalent Privacy     ║
-║              ║          ║                       ║                       ║ (WEP) vulnerabilities, ║
-║              ║          ║                       ║                       ║ denial of service      ║
-║              ║          ║                       ║                       ║ (DoS) attacks          ║
-╚══════════════╩══════════╩═══════════════════════╩═══════════════════════╩════════════════════════╝
+1) Students will review the TCP/IP Model and its layers and study the functionality and operation of
+each protocol, including its role in network communication and the information it conveys. 
+
+  ╔══════════════╦══════════╦═══════════════════════╦═══════════════════════╦════════════════════════╗
+  ║ Layer        ║ Protocol ║ Purpose               ║ Common Uses           ║ Vulnerabilities        ║
+  ╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+  ║ Application  ║ HTTP     ║ Transferring          ║ Viewing web           ║ Man-in-the-middle      ║
+  ║              ║          ║ data over the         ║ pages,                ║ attacks,               ║
+  ║              ║          ║ web                   ║ submitting            ║ spoofing,              ║
+  ║              ║          ║                       ║ forms,                ║ injection              ║
+  ║              ║          ║                       ║ downloading           ║ attacks                ║
+  ║              ║          ║                       ║ files                 ║                        ║
+  ╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+  ║ Application  ║ FTP      ║ Transferring files    ║ Uploading and         ║ Brute-force attacks,   ║
+  ║              ║          ║ between systems       ║ downloading           ║ data interception,     ║
+  ║              ║          ║                       ║ files,                ║ FTP bounce             ║
+  ║              ║          ║                       ║ managing              ║ attacks                ║
+  ║              ║          ║                       ║ a web server          ║                        ║
+  ╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+  ║ Application  ║ DNS      ║ Resolving domain      ║ Translating domain    ║ DNS spoofing,          ║
+  ║              ║          ║ names to              ║ names to              ║ cache poisoning,       ║
+  ║              ║          ║ IP addresses          ║ IP addresses          ║ distributed            ║
+  ║              ║          ║                       ║                       ║ denial of              ║
+  ║              ║          ║                       ║                       ║ service (DDoS)         ║
+  ║              ║          ║                       ║                       ║ attacks                ║
+  ╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+  ║ Application  ║ SMTP     ║ Transferring          ║ Sending and           ║ Spam, phishing,        ║
+  ║              ║          ║ email between         ║ receiving email       ║ denial of service      ║
+  ║              ║          ║ email servers         ║ messages              ║ (DoS) attacks,         ║
+  ║              ║          ║                       ║                       ║ email spoofing         ║
+  ╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+  ║ Application  ║ Telnet   ║ Allowing remote       ║ Remote administration ║ Unencrypted            ║
+  ║              ║          ║ access to a           ║ of network            ║ transmissions,         ║
+  ║              ║          ║ command-line          ║ devices and servers   ║ unauthorized access,   ║
+  ║              ║          ║ interface             ║                       ║ session hijacking      ║
+  ╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+  ║ Application  ║ SSH      ║ Allowing remote       ║ Remote administration ║ Brute-force attacks,   ║
+  ║              ║          ║ access to a           ║ of network devices    ║ session hijacking,     ║
+  ║              ║          ║ command-line          ║ and servers           ║ weak passwords         ║
+  ║              ║          ║ interface securely    ║                       ║                        ║
+  ╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+  ║ Presentation ║ SSL/TLS  ║ Providing secure      ║ Encrypting data       ║ Man-in-the-middle      ║
+  ║              ║          ║ communication         ║ in transit,           ║ attacks, weak          ║
+  ║              ║          ║ over a network        ║ verifying server      ║ encryption, session    ║
+  ║              ║          ║                       ║ authenticity          ║ hijacking,             ║
+  ║              ║          ║                       ║                       ║ impersonation attacks  ║
+  ╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+  ║ Transport    ║ TCP      ║ Providing reliable,   ║ Facilitating          ║ SYN flooding,          ║
+  ║              ║          ║ ordered data delivery ║ communication         ║ session hijacking,     ║
+  ║              ║          ║                       ║ between applications  ║ denial of service      ║
+  ║              ║          ║                       ║                       ║ (DoS) attacks,         ║
+  ║              ║          ║                       ║                       ║ TCP/IP spoofing        ║
+  ╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+  ║ Transport    ║ UDP      ║ Providing fast,       ║ Streaming video       ║ UDP flooding,          ║
+  ║              ║          ║ unreliable data       ║ and audio,            ║ denial of service      ║
+  ║              ║          ║ delivery              ║ online gaming         ║ (DoS) attacks,         ║
+  ║              ║          ║                       ║                       ║ UDP scanning           ║
+  ╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+  ║ Internet     ║ IP       ║ Routing data          ║ Facilitating          ║ IP spoofing,           ║
+  ║              ║          ║ packets between       ║ communication         ║ packet sniffing,       ║
+  ║              ║          ║ networks              ║ between networks      ║ denial of service      ║
+  ║              ║          ║                       ║                       ║ (DoS) attacks          ║
+  ╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+  ║ Internet     ║ ARP      ║ Resolving IP          ║ Facilitating          ║ ARP spoofing,          ║
+  ║              ║          ║ addresses to          ║ communication         ║ cache poisoning,       ║
+  ║              ║          ║ MAC addresses         ║ between network       ║ denial of service      ║
+  ║              ║          ║                       ║ devices               ║ (DoS) attacks          ║
+  ╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+  ║ Data-Link    ║ Ethernet ║ Transferring data     ║ Facilitating          ║ MAC spoofing,          ║
+  ║              ║          ║ between devices       ║ communication         ║ man-in-the-middle      ║
+  ║              ║          ║ on the same network   ║ between devices       ║ attacks, denial        ║
+  ║              ║          ║                       ║ on a LAN              ║ of service             ║
+  ║              ║          ║                       ║                       ║ (DoS) attacks,         ║
+  ║              ║          ║                       ║                       ║ Ethernet header        ║
+  ║              ║          ║                       ║                       ║ manipulation           ║
+  ╠══════════════╬══════════╬═══════════════════════╬═══════════════════════╬════════════════════════╣
+  ║ Physical     ║ Wi-Fi    ║ Wirelessly            ║ Connecting devices    ║ Eavesdropping,         ║
+  ║              ║          ║ connecting            ║ to a wireless LAN     ║ man-in-the-middle      ║
+  ║              ║          ║ devices on            ║                       ║ attacks, Wi-Fi         ║
+  ║              ║          ║ a network             ║                       ║ Protected Access       ║
+  ║              ║          ║                       ║                       ║ (WPA) and Wired        ║
+  ║              ║          ║                       ║                       ║ Equivalent Privacy     ║
+  ║              ║          ║                       ║                       ║ (WEP) vulnerabilities, ║
+  ║              ║          ║                       ║                       ║ denial of service      ║
+  ║              ║          ║                       ║                       ║ (DoS) attacks          ║
+  ╚══════════════╩══════════╩═══════════════════════╩═══════════════════════╩════════════════════════╝
+
+2) Students will review a few of the known protocols, and how each protocol work
+  a) TCP (Transmission Control Protocol)
+  • According to the OSI (Open Systems Interconnection) paradigm, TCP is a transport layer protocol.
+  • To exchange data, two hosts must first establish a connection through TCP.
+  • The client transmits a 
+    i)    SYN segment to the server
+    ii)   The server responds with a SYN-ACK (synchronize-acknowledgment) segment
+    iii)  Then the client sends an ACK (acknowledge) segment back to the server
+    iv)   This three-way handshake establishes the connection.
+
+  • Data is exchanged each segment including a sequence number and an acknowledgment number.
+    Sequence number       : used to order the segments
+    Acknowledgment number : used to confirm that the segment was received
+
+  • TCP will retransmit a segment if it is lost or damaged in transit until it is successfully received.
+  • To close a connection: 
+    i)    The client sends a FIN (finish) segment to the server
+    ii)   Server responds with an ACK segment
+    iii)  The server then sends a FIN segment to the client
+    iv)   The client responds with an ACK segment.
+
+  b) UDP (User Datagram Protocol)
+  • A protocol that sends 'datagrams' as data packets without a connection
+  • Unlike TCP, there are no error-checking features. The data is not guaranteed to arrive at the destination.
+  • There is a risk of network congestion and packet loss if too much data is sent too quickly (no flow-control)
+  • It is faster than TCP and has lower overhead, which makes it a good choice for real-time applications
+
+  c) IP (Internet Protocol)
+  • A protocol responsible for routing packets from a source to a destination IP address
+  • Source sends the IP packet to the local network's default gateway (router)
+  • The router forwards the packet to the next router until it reaches the destination network
+  • IP is a connectionless protocol
+  • Due to network congestion, routing mistakes, or other issues, IP packets may be lost 
+
+  d) ARP (Address Resolution Protocol)
+  • A protocol that maps IP addresses to MAC addresses
+  • When a device wants to communicate with another device on the same network, it needs its MAC address
+  • The sender sends an ARP request to the local network's default gateway, which then broadcasts the request
+  • The destination device responds with an ARP reply containing its MAC address, also as a broadcast
+  • The sender (and the rest of the network) now knows/updates the MAC address of the destination device
+
+  e) HTTP (Hypertext Transfer Protocol)
+  • A protocol used for transferring data over the web
+  • HTTP is a:
+    i)  Connectionless protocol : the server does not maintain a connection with the client.
+    ii) Stateless protocol      : the server does not remember the client's previous requests.
+
+  • An HTTP request is sent to a server by a client whenever it asks for a resource
+  • Following receipt of the HTTP request, the server replies to the client with an HTTP response.
+  • A request/response consists of the:
+    i)    URI       : the location of the resource
+    ii)   Method    : the type of request (GET, POST, PUT, DELETE, etc.)
+    iii)  Headers   : additional information about the request/response
+    iv)   Body      : the data being sent
+
+  f) FTP (File Transfer Protocol)
+  • A protocol used for transferring files over the internet
+  • FTP is a:
+    i)  Connection-oriented protocol : the server maintains a connection with the client.
+    ii) Stateful protocol            : the server remembers the client's previous requests.
+
+  • A connection to the server is initiated by the cliend on port 21
+  • When the connection is established, the client sends a username and a password to login
+  • If successfully authenticated, the client can now send commands to upload, download, list, etc..
+  • Once the client is done, it sends a QUIT command to close the connection 
+
+c) What are header fields in network protocols and what is the purpose of each header field?
+  a) TCP
+    • Source Port           : The application on the source device that is sending the data.
+    • Destination Port      : The application on the destination device that is receiving the data.
+    • Sequence Number       : A number used to order the segments.
+    • Acknowledgment Number : A number used to confirm that the segment was received.
+    • Data Offset           : The number of 32-bit words in the TCP header.
+    • Flags                 : Used to indicate the type of segment.
+      i)   URG: Indicates that the Urgent Pointer field is significant.
+      ii)  ACK: Indicates that the Acknowledgment field is significant.
+      iii) PSH: Push function. Asks to push the buffered data to the receiving application.
+      iv)  RST: Reset the connection.
+      v)   SYN: Synchronize sequence numbers.
+      vi)  FIN: No more data from sender.
+    • Window Size           : Specifies the amount of data the recipient is willing to receive at one time.
+    • Checksum              : A hash of the TCP header and data used to verify the integrity of the data.
+    • Urgent Pointer        : Used to indicate the offset in the data stream where urgent data is located.
+
+  b) UDP:
+      • Source Port       : The source port number of the sending process.
+      • Destination Port  : The destination port number of the receiving process.
+      • Length            : The length of the UDP header and data in bytes.
+      • Checksum          : A hash of the UDP header and data used to verify the integrity of the data.
+
+  c) IP:
+      • Version             : The version of the IP protocol.
+      • Header Length       : The length of the IP header in 32-bit words.
+      • Type of Service     : Used to indicate the priority of the packet.
+      • Total Length        : The total length of the IP packet.
+      • Identification      : A unique identifier for the IP packet.
+      • Flags               : Used for fragmentation and reassembly of packets.
+      • Fragment Offset     : Used for fragmentation and reassembly of packets.
+      • Time to Live        : Specifies the number of hops the packet can make before being discarded.
+      • Protocol            : Specifies the protocol used in the data portion of the IP packet.
+      • Header Checksum     : A hash of the IP header used to verify the integrity of the packet.
+      • Source Address      : The IP address of the sending device.
+      • Destination Address : The IP address of the receiving device.
+
+  d) ARP:
+      • Hardware Type           : Specifies the type of hardware used in the local network.
+      • Protocol Type           : Specifies the type of protocol used in the network layer.
+      • Hardware Address Length : Specifies the length of the hardware address.
+      • Protocol Address Length : Specifies the length of the protocol address.
+      • Opcode                  : Specifies the type of ARP packet.
+      • Sender Hardware Address : The MAC address of the sender device.
+      • Sender Protocol Address : The IP address of the sender device.
+      • Target Hardware Address : The MAC address of the target device.
+      • Target Protocol Address : The IP address of the target device.
+
+  e) HTTP:
+      • Request/Response Line : Specifies the resource being requested or the status of the response.
+      • Header Fields         : Optional fields that provide additional information about the message or request.
+      • Message Body          : Optional data that is included with the message.
+
+  f) FTP:
+      • Command     : The FTP command being sent by the client.
+      • Parameters  : Optional parameters for the FTP command.
+      • Reply Code  : The code indicating the success or failure of the FTP command.
+      • Reply Text  : Optional text message providing additional information about the reply.
+      • Data        : Optional data that is included with the FTP command.
