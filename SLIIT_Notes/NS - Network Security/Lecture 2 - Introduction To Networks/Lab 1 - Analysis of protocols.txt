@@ -1,5 +1,4 @@
-1) Students will review the TCP/IP Model and its layers and study the functionality and operation of
-each protocol, including its role in network communication and the information it conveys. 
+1) Students will review the TCP/IP Model and its layers and study the functionality and operation of each protocol, including its role in network communication and the information it conveys. 
 
   ╔══════════════╦══════════╦═══════════════════════╦═══════════════════════╦════════════════════════╗
   ║ Layer        ║ Protocol ║ Purpose               ║ Common Uses           ║ Vulnerabilities        ║
