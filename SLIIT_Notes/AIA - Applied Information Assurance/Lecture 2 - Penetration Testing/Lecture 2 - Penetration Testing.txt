@@ -1,0 +1,36 @@
+a) Penetration Testing: A proactive security assessment that tests internal and external systems by simulating an attack.
+  ‣ Types of penetration testing:
+    a) Black Box Testing  : The tester has no knowledge of the system under test.
+    b) White Box Testing  : The tester has full knowledge of the system under test.
+    c) Gray Box Testing   : The tester has some knowledge of the system under test.
+
+  ‣ Stages of penetration testing:
+    a) Pre-Engagement         : Preparing the test environment and the tools to be used.
+    b) Information Gathering  : Gathering information about the target system (aka footprinting).
+    c) Vulnerability Analysis : Finding system and application weaknesses to recognize vulnerabilities.
+    d) Threat Modeling        : Making a list of threats and vulnerabilities.
+        i)    Objective Identification  : Figuring out the objective of the penetration test.
+        ii)   Application Overview      : Finding out how the application works.
+        iii)  Decompose Application     : Breaking down the application into smaller parts.
+        iv)   Identify Threats          : Finding out the threats to the application.
+        v)    Identify Vulnerabilities  : Finding out the vulnerabilities to the application.
+
+    e) Exploitation           : Using the vulnerabilities found in the previous stage to gain access to the system.
+    f) Post Exploitation      : Gaining access to the system and maintaining it.
+    g) Reporting              : Reporting the results of the test to the client.
+
+  ‣ Goals of a penetration test
+    a) Proactive testing of systems by simulating attacks
+    b) Review policies and procedures
+
+b) Risk: The monetary value of the loss that can be caused by a threat.
+  ‣ Formalized as (Risk = Threat * Vulnerability):
+    a) Threat         : The probability of a party (employee, hacker, etc) having malicious intent.
+                          ‣ A disgruntled employee, a hacker, etc.
+
+    b) Vulnerability  : The probability of a security flaw compromising the system.
+                          ‣ A weak password, a buffer overflow, etc.
+
+  ‣ Managing risk: The process of reducing risk on tangible and intangible assets.
+    a) Tangible assets  : Physical assets such as buildings, equipment, and vehicles.
+    b) Intangible assets: Non-physical assets such as brand value, customer relationships, etc..
