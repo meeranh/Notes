@@ -1,0 +1,85 @@
+1) Datacenters in China, Singapore cracked by crims who then targeted tenants
+    ‣ URL: https://www.theregister.com/2023/02/23/datacenter_operators_in_china_singapore/
+
+  Based on the above article, what are the: 
+    a. Vulnerability/Vulnerabilities
+       ‣ A vulnerable helpdesk (ticket management module) 
+
+    b. Threat(s)
+       ‣ Unauthorized access to CCTV cameras
+       ‣ Leakage of customer credentials
+       ‣ Leakage of lists of purchased services and deployed equipment
+       ‣ Unauthorized access to remote hands service
+
+    c. Risk(s)
+       ‣ The risk of cyber espionage
+       ‣ Risk of perform physical and software maintenance of tenants' kit
+       ‣ Risk of changing tenants' access permissions
+      
+    d. Assets
+       ‣ Customer records of datacenter organizations
+       ‣ CCTV cameras
+       ‣ Customer credentials
+       ‣ Lists of purchased services and deployed equipment
+       ‣ Tenants' approved visitor lists
+
+    e. Possible Controls
+       ‣ Implementing stronger access controls/authentication
+       ‣ Monitoring network traffic/system logs for suspicious activity
+       ‣ Conducting regular vulnerability assessments/penetration testing
+       ‣ Implementing robust incident response/business continuity plans
+       ‣ Educating employees on the importance of security awareness/best practices
+
+2) Intruder alert: FBI tackles 'isolated' IT security breach
+    ‣ URL: https://www.theregister.com/2023/02/17/fbi_security_incident/
+
+    Based on the above article, what are the: 
+      a. Vulnerability/Vulnerabilities
+         ‣ Malware scans not always identifying dangerous files
+
+      b. Threat(s)
+         ‣ Unknown intruders gaining access to the FBI's forensic analysis network
+
+      c. Risk(s)
+         ‣ Intruders may have accessed sensitive information about child exploitation investigations
+        
+      d. Assets
+         ‣ Data used in the FBI's investigations of child sexual exploitation
+
+      e. Possible Controls
+         ‣ Improve malware scanning tools
+         ‣ Train staff on cybersecurity best practices
+         ‣ Implement more robust access controls
+
+3) GoDaddy joins the dots and realizes it's been under attack for three years
+    ‣ URL: https://www.theregister.com/2023/02/20/in_brief_security/
+
+    Based on the above article, what are the: 
+      a. Vulnerability/Vulnerabilities
+         ‣ Compromised hosting login credentials
+         ‣ Breach of the hosted WordPress service
+         ‣ Installation of malware on GoDaddy's cPanel hosting servers
+
+      b. Threat(s)
+         ‣ Infected websites and servers 
+         ‣ Malware distribution
+         ‣ Phishing campaigns
+
+      c. Risk(s)
+         ‣ Potential for customer data to be compromised or stolen
+         ‣ Websites being redirected to malicious sites
+         ‣ Reputation damage
+
+      d. Assets
+         ‣ GoDaddy hosting accounts
+         ‣ Personnel login credentials
+         ‣ Hosted WordPress service
+         ‣ cPanel hosting servers
+         ‣ Data and websites of GoDaddy customers
+
+      e. Possible Controls
+         ‣ Implementing multi-factor authentication for all login credentials
+         ‣ Increasing network and system monitoring
+         ‣ Conducting regular vulnerability assessments
+         ‣ Investing in robust cybersecurity technologies such as firewalls and intrusion detection systems
+         ‣ Regular employee training
