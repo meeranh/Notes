@@ -1,0 +1,50 @@
+1) Risk Identification: Identifying potential risks that could impact a project or business
+  ‣ Involves systematically examining every department of a business
+  ‣ A never-ending process (cyclical) that is done throughout the life of a project
+
+2) Qualitative Risk Analysis: Using non-quantitative methods to assess the chance of risks
+  ‣ Using a subjective scales (low, medium, high) to assess the chance of risks
+  ‣ Based on judgement/opinion of experts and past experiences
+  ‣ For example:
+    Risk A - The chance that the project will be delayed
+    Risk B - The chance of building collapse due to earthquake
+    Risk C - The chance of a strike by the workers
+
+    Table 1.1: Qualitative RA           Table 1.2: Impact scale
+    ╔══════╦═════════════╦════════╗     ╔════════╦═════════════╗
+    ║ Name ║ Probability ║ Impact ║     ║ Impact ║ Description ║
+    ╠══════╬═════════════╬════════╣     ╠════════╬═════════════╣
+    ║ A    ║ Low         ║ High   ║     ║ Low    ║ Rare        ║
+    ║ B    ║ Medium      ║ Medium ║     ║ Medium ║ Occasional  ║
+    ║ C    ║ High        ║ Low    ║     ║ High   ║ Frequent    ║
+    ╚══════╩═════════════╩════════╝     ╚════════╩═════════════╝
+
+3) Quantitative Risk Analysis: Using quantitative methods to assess the chance of risks
+  ‣ Based on a numeric scale (0-100) to assess the chance of risks
+  ‣ Based on statistical data and is more accurate than qualitative analysis
+  ‣ For example:
+    Risk A - The chance that the project will be delayed
+    Risk B - The chance of building collapse due to earthquake
+    Risk C - The chance of a strike by the workers
+
+    Table 2.1: Quantitative RA                     Table 2.2: Impact scale
+    ╔══════╦═════════════╦════════╦═══════════╗    ╔════════╦═════════════╗
+    ║ Name ║ Probability ║ Impact ║ Risk (PxI)║    ║ Impact ║ Loss ($)    ║
+    ╠══════╬═════════════╬════════╣═══════════╣    ╠════════╬═════════════╣
+    ║ A    ║ 0.25        ║ 2      ║ 0.5       ║    ║ 0-3    ║ 0-3000      ║
+    ║ B    ║ 0.5         ║ 1      ║ 0.5       ║    ║ 3-6    ║ 3000-6000   ║
+    ║ C    ║ 0.75        ║ 0.5    ║ 0.375     ║    ║ 6-10   ║ 6000-10000  ║
+    ╚══════╩═════════════╩════════╩═══════════╝    ╚════════╩═════════════╝
+
+4) Response Planning: Developing a plan to respond to risks
+  ‣ Identifying the best response to a risk
+  ‣ There are 5 types of responses:
+      a) Avoid    : Preventing the risk by not taking the risk (eg. not lowering wages)
+      b) Mitigate : Reducing the impact of the risk (eg. using a backup generator)
+      c) Transfer : Transferring the risk to another party (eg. insurance)
+      d) Defer    : Postponing the risk to a less-risk time (eg. not lowering wages until next year)
+      e) Accept   : Ignore the risk and accept consequences (eg. not doing anything to eliminate the risk)
+
+5) Monitor & Control Risks: Keeping track of the risks and observing the effectiveness of risk responses
+  ‣ Looking back on the risk responses and seeing if they were effective
+  ‣ Identifying new risks that may have occurred and developing new responses
