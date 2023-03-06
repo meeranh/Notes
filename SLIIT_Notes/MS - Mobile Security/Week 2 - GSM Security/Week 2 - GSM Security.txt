@@ -144,3 +144,13 @@ Two ways to break GSM:
   2) Passive intercept: Listening to the data sent over the air
       ‣ An attacker could eavesdrop and record the data sent over the air between the victim MS and the BTS
       ‣ The attacker can then attempt to recover the session key and the frame key
+
+Problems with GSM Security:
+	a) Active attacks							: Attacks using a Fake BTS is possible
+	b) Key transmission						: Encryption keys (XRES, Kc, RAND) are not encrypted in-transit
+	c) Limited encryption scope		: Encryption is not applied to all the data sent over the air
+	d) Channel hijack							: An attacker can take control of a channel and block connections
+	e) Implicit data integrity		: Data sent over GSM is not guaranteed to have integrity
+	f) Unilateral authentication	: Only the network authenticates the user, not the other way around
+	g) Weak encryption algorithms	: A5 algorithm is weak and can be broken (short keylengths)
+	h) Unsecured terminal					: Malwares and viruses installed on the MS can read the data sent over the air

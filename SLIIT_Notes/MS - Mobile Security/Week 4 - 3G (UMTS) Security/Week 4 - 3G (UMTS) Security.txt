@@ -1,0 +1,91 @@
+1) Releases of 3G:
+  a) 3GPP (Release 99)
+      • The first release of 3G
+      • Has download speeds of 2MBPS (300KBPS in real life)
+
+  b) HSPA (High Speed Packet Access)
+      • Has download & upload speeds of 14.4 MBPS & 5.76 MBPS respectively
+      • Uses an entirely packet-switched network
+      • Packet-switched networks (unlike circuit-switched networks) use:
+        • The TCP/IP protocol to send packets from a sender to a receiver
+        • The data is reassembled at the receiver based on sequence numbers
+
+  c) HSPA+
+		• Has higher download & upload speeds of 56 MBPS & 22 MBPS respectively
+
+2) UMTS Network Architecture:
+	a) User Equipment (UE): The physical mobile device
+
+	b) UMTS Terrestrial Radio Access Network (UTRAN): The radio network that connects the UE to the network
+		i) Node B: The physical signal tower that sends/receives radio signals to UEs in a cell
+			• A cell is a geographical area that is covered by a Node B
+			• A Node B is connected to a Radio Network Controller (RNC) using a Iub interface
+			• This is responsible for functions such as:
+				a) Modulation/Demodulation: Converting digital signals to analog signals and vice versa
+				b) Traffic data collection: Collecting data about the traffic in the cell
+				c) Soft/hard Handover			: Transferring a call/data session from one station to another station
+					i) Soft Handover	: Connection is maintained in both stations and the call is gradually transferred
+					ii) Hard Handover	: Connection is disconnected from original station and transfered to the new station
+
+		ii) Radio Network Controller (RNC): The controller that manages multiple Node Bs
+			• It is responsible for managing the radio resources of the UTRAN (handover, power control, etc.)
+			• Two or more RNCs can be connected together using an Iur interface
+			• The RNC is connected to the Core Network (CN) using an Iu interface
+			• This is responsible for functions such as:
+				a) Diversity Handover			: A UE is handed over from one cell to another without losing connection
+				b) Call connecton control	: Setup and release procedures for calls while maintaining call quality
+
+		iii) Radio Network Subsystem (RNS): Logically separating RNCs in different geographical areas
+			• It is a logical grouping of one RNC connected to one or more Node Bs in an area.
+			• Just like IP networks are grouped into subnets, multiple RNCs are grouped into RNSs.
+			• Like IP networks use IP addresses, RNS uses RNSIs to identify the RNS
+
+		iv) Interfaces: The physical connections between the Node B, RNC, and CN
+			• Iub interface		: A copper wire that connects the Node B to the Radio Network Controller (RNC)
+			• Iu interface		: A fiber optic cable that connects the RNC to the Core Network (CN)
+			• Iur interface		: A copper wire that is used to connect two or more RNCs together
+	
+	c) Core Network (CN): This is the backbone of the UMTS network
+		i) Mobile Switching Center / Visitor Location Register (MSC/VLR):
+			• Used to route calls using the best route and stores the current location of the UE
+			• When a user requests a call, the MSC determines the best route for incoming calls
+			• The VLR is a temporary database that stores data about UE that roams into a network
+
+		ii) Gateway GPRS Support Node (GGSN): Connects the UMTS network to the internet and other networks
+			• Located at the edge of a network acting as a gateway between the UMTS network and external networks
+			• Is responsible for handling the data packets that enter/leave the UMTS network
+
+		iii) Gateway Mobile Switching Center (GMSC): Connects the UMTS network to the PSTN
+			• Located at the edge of a network acting as a gateway between the UMTS network and the PSTN
+			• PSTN is a worldwide circuit-switched network that connects telephones to each other
+
+		iv) Serving GPRS Support Node (SGSN): Routes data packets between mobile devices and networking services
+			• Located at the core of the UMTS network
+			• It is responsible for controlling mobile devices connected to GPRS and managing their data transmission
+
+		v) Home Location Register (HLR): The central database of the network
+			• A central database that stores subscriber data, including subscriber profiles, and location information.
+
+		vi) Authentication Center (AuC): Authenticates the UE
+			• It is responsible for generating and managing the security keys to authenticate the subscriber
+
+3) Noise in wireless communications and solutions:
+	a) Additive White Gaussian Noise (AWGN)
+		• A type of noise that reduces signal quality in wireless communications
+		• Typically caused by thermal noise, interference, and background radiation (e.g. cosmic rays)
+		• A gaussian (normal) distribution is used to model the noise, but there are some problems with this model:
+			• Multipath echo/fading (interference from trees, buildings, etc) are not taken into account
+			• Therefore, the noise is never a gaussian (normal) in cellular network communications
+	
+	b) Multipath Channel
+		• Sound waves can take multiple paths from a destination to a source (reflect off trees, buildings, etc)
+		• Therefore, the received signal will be:
+			a) Echoed (Multipath Echo)	: Reflection of the signal off different surfaces and received at different times
+			b) Faded (Multipath Fading)	: Signal strength changes due to interference
+	
+	c) RAKE Receiver
+		• A signal processing technique used to combat signals taking a multipath channel
+		• The RAKE receiver has multiple antennas that receive all multipath echoes
+		• Once all signals are received from these antennas, it will merge all multipath signals to one signal
+		• This will improve signal quality and signal strength
+
