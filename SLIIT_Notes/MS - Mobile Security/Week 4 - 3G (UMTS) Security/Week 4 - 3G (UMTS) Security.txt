@@ -89,3 +89,35 @@
 		• Once all signals are received from these antennas, it will merge all multipath signals to one signal
 		• This will improve signal quality and signal strength
 
+4) New features in UMTS
+	a) User Confidentiality (TMSI)
+		• The UE is assigned a temporary mobile subscriber identity (TMSI)
+		• This is done in order to hide the UE's IMSI in communications
+			1) VLR requests the user for its IMSI
+			2) The user sends its IMSI to the VLR
+			3) The VLR stores the IMSI and sends a TMSI to the user
+			4) The user acknowledges the VLR that it received the TMSI
+	
+	b) Mutual Authentication: Both the network and mobile device authenticate themselves
+		• The authentication process is called Authentication & Key Agreement (AKA):
+			1) The network starts a User Authentication Request by sending the following to the UE:
+				a) RAND (Random Number)
+				b) AUTN (Authentication Token which contains the AMF & MAC)
+
+			2) The UE then calculates the following keys:
+				a) AK (Anonimity Key)		: Calculated using the secret key in the USIM (K) and the RAND
+				b) SQN (Sequence Number): The number of times data was sent out (similar to TCP SQN)
+				c) XMAC (Expected MAC)	: Calculated using the secret key (K), SQN, RAND, AMF
+
+			• If the calculated XMAC and the received MAC same, the network was authenticated
+			• Else, if the SQN is not in range, send a synchronization failure
+
+			3) If the XMAC matches the MAC, the mobile generates a RES and sends the RES to the network
+			4) If the RES matches the XRES (Expected response) in the network's VLR, the UE is authenticated
+	
+	c) Data Integrity						: Both the UE and network agree on an IK (Integrity Key) to verify data
+	d) Data Confidentiality			: Both IE and network agree on a CK (Cipher Key) to encrypt data
+	e) IMEI Protection					: IMEI is sent only after authentication
+	f) User-USIM Authentication	: Users should authenticate themselves with a PIN number to access the SIM
+	g) Visibility								: If a base-station does not encrypt its data, a warning should be shown on the UE
+	h) Secure Applications			: Sensistive data is always encrypted end-to-end and is therefore secure
