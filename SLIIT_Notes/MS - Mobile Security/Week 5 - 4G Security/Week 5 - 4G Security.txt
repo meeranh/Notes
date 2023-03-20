@@ -1,10 +1,25 @@
 I) The goals/features of LTE
   a) Packet domain services only      : Only supports IP-based services such as internet access, VoIP, video streaming, etc..
   b) High bandwidth / User throughput : Focus on high speed data transfer rates
-  c) Low latency                      : Data sent from one device to another should be received as soon as possible
+  c) Low latency                      : Data should be transferred with low delay (milliseconds)
   d) Improved spectral efficiency     : More data can be transferred over the same frequency (Using MIMO & OFDMA)
   e) Mobility                         : Moving from one area to another without losing connectivity (handover)
   f) Multimedia broadcast/services    : Broadcasting multimedia content to multiple users simultaneously
   g) Spectrum flexibility             : The ability to use different frequency bands for different services
   h) Multi-antenna configurations     : Multiple antennas are used to improve the performance of the network
   i) Higher coverage and frequency    : The ability to use higher frequencies to increase the coverage area of the network
+
+II) Components of the 4G/LTE architecture
+	I)	Evolved UTRAN (E-UTRAN)
+		a) User Equipment (UE)	: The mobile device (smartphone, tablet, etc..)
+		b) Evolved Node B (eNB)	: The base station that connects the UE to the core network
+				i)		Resource Management				 : Allocates resources for proper communication/handover between UE & eNB
+				ii)		Admission Control					 : Allows/rejects UEs from connecting to the network
+				iii)	Cell Information Broadcast : eNB transmits network status, availability & coverage details
+				iv)		Application of UL QoS			 : Regulates the bandwidth usage of the UE (Uplink Quality Of Service)
+				v)		Ciphering/Deciphering of User & Control Plane Data: Data sent on-air is encrypted/decrypted
+
+	II) Evolved Packet Core (EPC)
+		a) Mobility Management Entity (MME)				 : Manages the authentication, handover, security, etc of mobile devices
+		b) Serving Gateway (SGW)									 : Routes and forwards data between the mobile device and the PGW
+		c) Packet Data Network Gateway (PGW/PDNGW) : Connects the 4G/LTE network to external networks such as the internet
