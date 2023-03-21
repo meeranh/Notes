@@ -23,3 +23,32 @@ II) Components of the 4G/LTE architecture
 		a) Mobility Management Entity (MME)				 : Manages the authentication, handover, security, etc of mobile devices
 		b) Serving Gateway (SGW)									 : Routes and forwards data between the mobile device and the PGW
 		c) Packet Data Network Gateway (PGW/PDNGW) : Connects the 4G/LTE network to external networks such as the internet
+	
+III) How 4G combats multipath propagation during wireless communication
+	a) OFDM (Orthogonal Frequency Division Multiplexing): A frequency band is divided into multiple sub-bands
+		• If a eNB has a frequency band of (0-20MHz), it can divide it into 10 sub-bands of (0-2MHz)
+		• Usually only 1 sub-band is used to transmit data at a time
+		• This means that users have to wait turns to send/receive data
+	
+	b) MIMO (Multiple Input Multiple Output): Multiple antennas (on the UE and eNB) are used to send/receive data
+		• Some benefits of MIMO are:
+			a) Higher data rates: More antennas means more data can be sent/received at the same time
+			b) Spatial diversity: If one antenna is blocked, the other antennas can still receive data
+
+IV) 4G access method schemes (How multiple users access the 4G network)
+	a) OFDMA (Orthogonal Frequency Division Multiple Access): A multi-user version of OFDM
+		• Unlike OFDM, users do not have to wait turns to send/receive data
+		• This is because multiple frequency bands can be transmitted at the same time
+		• Used for downlink communication (from eNB to UE)
+	
+	b) SC-FDMA (Single Carrier Frequency Division Multiple Access): A low-power intensive version of OFDMA
+		• This technique uses less power to transmit data
+		• Used for uplink communication (from UE to eNB) as this saves the battery life of the UE
+
+V) Types of LTE handover (How a UE moves from one eNB to another)
+	a) Inter eNB/Intra MME Handover								: The UE moves from one eNB to another within the same MME 
+	b) Inter eNB Handover (with MME change)				: The UE moves from one eNB to another within a different MME
+	c) Inter eNB Handover (with MME & S-GW change): The UE moves from one eNB to another within a different MME & S-GW
+
+VI) Authentication and Key Exchange (AKA) process
+	A) 
