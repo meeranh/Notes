@@ -17,7 +17,7 @@
     1) End Devices          : Send and receive messages (PCs, printers, etc.)
     2) Intermediate Devices : Send, receive, and also forward messages to other devices
       a) Switches   : Used to filter and forward traffic in a LAN
-      b) Routers    : Used to filter and forward traffic in a WAN
+      b) Routers    : Used to route traffic between networks
 
 3) Switching Process
   i)   The switch reverses bits       (due to big/little endianness)
