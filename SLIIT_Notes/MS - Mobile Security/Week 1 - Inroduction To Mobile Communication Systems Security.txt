@@ -32,3 +32,6 @@ Broadband Wireless Technology: The wireless technology used to provide high-spee
       ‣ It uses a combination of TDMA and FDMA (Frequency Division Multiple Access) to differentiate between users.
       ‣ It uses time slots to differentiate between users and frequency to differentiate between time slots.
       ‣ It is the most widely used mobile telephone system in the world.
+
+    d) PSTN (Public Switched Telephone Network)
+      ‣ It is a network that connects all the telephone users in a country.
