@@ -1,7 +1,7 @@
 Global System for Mobile Communications (GSM): A network architecture that provides mobile communication services
 
 Components of GSM:
-  1) Mobile Station (ME)                : The actual mobile phone system
+  1) Mobile Station (MS)                : The actual mobile phone system
     a) Mobile Equipment (ME)            : The physical components of the mobile phone (display, keypad, microphone, etc.)
     b) Subscriber Identity Module (SIM) : A smart card that stores user data & the needed algorithms for authentication
 
