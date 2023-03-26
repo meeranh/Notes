@@ -48,16 +48,6 @@ Gaussian minimum-shift keying (GMSK): A modulation technique used in GSM (conver
   ‣ For every 1, the carrier frequency is shifted up by a certain amount
   ‣ This will result in a frequency wave that can be sent over the air
 
-Cellular Technologies:
-  1) 2G - 3G:
-      a) GPRS (General Packet Radio Service) - 2.5G
-      b) EDGE (Enhanced Data Rates for GSM Evolution) - 2.75G
-      c) UMTS (Universal Mobile Telecommunications System) - 3G
-
-  2) 4G - 5G
-      a) 4G HSPA+ (High Speed Packet Access)
-      b) 4G LTE (Long Term Evolution)
-
 GSM Authentication:
   1) International Mobile Subscriber Identity (IMSI): A 15-digit number assigned to each SIM card
       ‣ It is stored in the SIM card and is used to authenticate the user and is a permanent identifier.
