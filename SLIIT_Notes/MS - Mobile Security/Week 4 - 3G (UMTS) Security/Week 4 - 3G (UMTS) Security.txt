@@ -1,16 +1,23 @@
-1) Releases of 3G:
-  a) 3GPP (Release 99)
+1) Releases of 2G & 3G:
+  a) 2.5G / EDGE (Enhanced Data Rates for GSM Evolution)
+  b) 2.75G / GPRS (General Packet Radio Service)
+
+  c) 3G / 3GPP (Release 99)
       • The first release of 3G
       • Has download speeds of 2MBPS (300KBPS in real life)
 
-  b) HSPA (High Speed Packet Access)
+  d) 3.5G / HSDPA (High Speed Downlink Packet Access)
       • Has download & upload speeds of 14.4 MBPS & 5.76 MBPS respectively
       • Uses an entirely packet-switched network
       • Packet-switched networks (unlike circuit-switched networks) use:
         • The TCP/IP protocol to send packets from a sender to a receiver
         • The data is reassembled at the receiver based on sequence numbers
 
-  c) HSPA+
+  e) 3.75G / HSPA (High Speed Packet Access)
+      • Has download and upload speeds of 42 MBPS & 11 MBPS respectively
+      • A better version of 3.5G
+
+  f) HSPA+
 		• Has higher download & upload speeds of 56 MBPS & 22 MBPS respectively
 
 2) UMTS Network Architecture:
@@ -121,3 +128,10 @@
 	f) User-USIM Authentication	: Users should authenticate themselves with a PIN number to access the SIM
 	g) Visibility								: If a base-station does not encrypt its data, a warning should be shown on the UE
 	h) Secure Applications			: Sensistive data is always encrypted end-to-end and is therefore secure
+
+5) A5 Encryption (stream cipher)
+  I) Versions of A5
+    a) A5/0: Allows GSM to make calls without encryption (not a release)
+    b) A5/1: The original A5 algorithm used in Western Europe & US
+    c) A5/2: Second version of A5 used outside of Europe & US
+    d) A5/3: A stronger version of A5 used in 3G networks
