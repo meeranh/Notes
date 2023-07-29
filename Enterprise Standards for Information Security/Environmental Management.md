@@ -1,9 +1,3 @@
----
-id: "Environmental Management"
-aliases: []
-tags: []
----
-
 + A process that makes sure that the following factors are considered:
     1. **Minimize Harmful Effects**: Make sure that an organization does not effect it's environment.
     2. **Regulatory Requirements**: Makes sure that it follows all rules and regulations of it's governing body.

@@ -1,10 +1,3 @@
----
-id: "Quality Management"
-aliases:
-  - "Quality vs Quality Management"
-tags: []
----
-
 ## Quality vs Quality Management
 + **Quality**: The features and characteristics of a product/service/software that a customer expects from an organization.
 

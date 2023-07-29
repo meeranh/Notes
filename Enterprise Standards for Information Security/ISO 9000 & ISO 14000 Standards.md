@@ -1,12 +1,3 @@
----
-id: "ISO 9000 & ISO 14000 Standards"
-aliases:
-  - "Differences Between ISO 9000 & ISO 14000"
-  - "Features Of ISO 9000 & ISO 14000"
-  - "Advantages Of Following ISO 9000 & ISO 14000 Standards"
-  - "ISO Does Not Provide Certifications"
-tags: []
----
 ## Features Of ISO 9000 & ISO 14000
 1. **Implementation**
     + **ISO 9000**: Used to implement "[[Quality Management]]".
