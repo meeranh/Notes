@@ -1,0 +1,151 @@
+{
+  "main": {
+    "id": "c99657c377099a5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d47492bdcf08afb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "235aeaa1670ac168",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2d11fd89b61ed868",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ab491ff865bf1d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b13f9c8b1df6f29",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1fa1d00d253c35cd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d8f38cc977ebe3bf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a608e93921701a36",
+    "type": "split",
+    "children": [
+      {
+        "id": "4845ff5e134144b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b7e731d3a974ec4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6bd28fdc2ef4bf73",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6088e875aae8b850",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cb34712fea04f809",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "235aeaa1670ac168",
+  "lastOpenFiles": [
+    "Enterprise Standards for Information Security/Quality Management.md",
+    "Enterprise Standards for Information Security/ISO 9001.md",
+    "Enterprise Standards for Information Security/ISO 9000 & ISO 14000 Standards.md",
+    "Enterprise Standards for Information Security/Environmental Management.md",
+    "Enterprise Standards for Information Security",
+    "Cryptography/README.md",
+    "Cryptography"
+  ]
+}
