@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Golang/The Go Compiler.md",
+                "file": "Golang/Types.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Golang/The Go Compiler.md",
+                "file": "Golang/Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Golang/The Go Compiler.md",
+                "file": "Golang/Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Golang/The Go Compiler.md"
+                "file": "Golang/Types.md"
               }
             }
           }
@@ -148,13 +148,14 @@
   },
   "active": "e68383bc62f8c33b",
   "lastOpenFiles": [
-    "Golang/The Go Compiler.md~",
+    "Golang/4913",
     "Golang/Golang - Contents.md",
+    "Golang/Types.md",
     "Golang/The Go Compiler.md",
+    "Golang/The Go Compiler.md~",
     "Golang/Documentation.md",
     "Golang/Comments.md",
     "Golang/Packages.md",
-    "Golang/4913",
     "Golang/Functions.md",
     "Golang/Building Binaries & Running JIT.md",
     "Golang/Building Binaries From Go.md",
