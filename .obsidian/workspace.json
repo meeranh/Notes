@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cryptography/README.md",
+                "file": "Golang/The Go Compiler.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cryptography/README.md",
+                "file": "Golang/The Go Compiler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cryptography/README.md",
+                "file": "Golang/The Go Compiler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cryptography/README.md"
+                "file": "Golang/The Go Compiler.md"
               }
             }
           }
@@ -148,6 +148,16 @@
   },
   "active": "e68383bc62f8c33b",
   "lastOpenFiles": [
+    "Golang/The Go Compiler.md~",
+    "Golang/Golang - Contents.md",
+    "Golang/The Go Compiler.md",
+    "Golang/Documentation.md",
+    "Golang/Comments.md",
+    "Golang/Packages.md",
+    "Golang/4913",
+    "Golang/Functions.md",
+    "Golang/Building Binaries & Running JIT.md",
+    "Golang/Building Binaries From Go.md",
     "Data & Operating System Security/README.md",
     "Enterprise Standards for Information Security/ISO 9000 & ISO 14000 Standards.md",
     "Enterprise Standards for Information Security/Environmental Management.md",
