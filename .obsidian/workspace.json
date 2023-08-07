@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "24bef005baf9ba75",
+        "id": "49de0f65b2bf3a77",
         "type": "tabs",
         "children": [
           {
-            "id": "e68383bc62f8c33b",
+            "id": "a18c81a551735508",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Golang/Types.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Golang/Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Golang/Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Golang/Types.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,17 +138,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e68383bc62f8c33b",
+  "active": "a18c81a551735508",
   "lastOpenFiles": [
-    "Golang/4913",
+    "Golang/Functions.md",
+    "Golang/Packages.md",
     "Golang/Golang - Contents.md",
     "Golang/Types.md",
+    "Golang/4913",
     "Golang/The Go Compiler.md",
     "Golang/The Go Compiler.md~",
     "Golang/Documentation.md",
     "Golang/Comments.md",
-    "Golang/Packages.md",
-    "Golang/Functions.md",
     "Golang/Building Binaries & Running JIT.md",
     "Golang/Building Binaries From Go.md",
     "Data & Operating System Security/README.md",
