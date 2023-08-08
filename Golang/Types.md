@@ -96,25 +96,12 @@ func main(){
         // Slices
         var y []int // A slice of integers (a dynamic array)
 
-        // Structs
-        type Person struct{
-            name string
-            age int
-        }
-        var z Person // A struct of type Person
-        z.name = "John"
-        z.age = 30
-
         // Maps (Python dictionaries in Go)
         var a map[string]int // Key is a string, value is an integer
 
         // Pointer
         var b *int
         b = &x // The pointer b points to the address of x
-
-        // Interfaces (Grouping of types with a common method)
-        type Shape interface{
-            area() float64 // A circle and a rectangle can both have an area
         }
         
         // A circle has an area
