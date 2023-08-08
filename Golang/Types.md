@@ -119,28 +119,16 @@ func main(){
     }
     ```
 
-5. **Type Conversions**
-    + These are conversions from one type to another.
-    ```go
-    func main(){
-        // Converting an integer to a float
-        var x int = 5
-        var y float64 = float64(x)
-
-        // Converting a float to an integer
-        var z float64 = 5.5
-        var a int = int(z)
-    }
-    ```
-
-## Type Inference
-+ Go is a **statically typed language**.
-+ This means that **variables always have a specific type**.
-+ However, **Go can infer the type of a variable** based on the value assigned to it.
+## Type Conversions
++ These are conversions from one type to another.
 ```go
 func main(){
-    x := 5             // Integer
-    y := 5.5           // Float
-    z := "Hello World" // String
+    // Converting an integer to a float
+    var x int = 5
+    var y float64 = float64(x)
+
+    // Converting a float to an integer
+    var z float64 = 5.5
+    var a int = int(z)
 }
 ```
