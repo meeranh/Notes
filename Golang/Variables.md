@@ -43,5 +43,18 @@ func main(){
     x := 5             // Integer
     y := 5.5           // Float
     z := "Hello World" // String
+
+    // Also works with the var keyword if a type is not specified
+    var a = 5               // Integer
+    var b = 5.5             // Float
+    var c = "Hello World"   // String
 }
 ```
+
+## Integers & 32/64-bit Systems
++ The size of an integer **depends on the system architecture**.
++ On a **32-bit system**, an **integer is 32 bits** long.
++ On a **64-bit system**, an **integer is 64 bits** long.
++ If Go compiled a program on a 64-bit system, it **will convert all `int` data types to `uint`**.
++ This is because **`int` is 32 bits** in size, but **`uint` is 64 bits** in size.
++ It is better to use `int` instead of `uint` as it will make the code **more portable**.
