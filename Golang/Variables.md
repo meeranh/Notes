@@ -7,6 +7,7 @@ tags: []
 
 ## Variable Declaration
 
+### Single Variable Declaration
 + Variables are declared using the `var` keyword.
 + The syntax it follows is `var nameOfVariable typeOfVariable`
 + An example of variable declaration is:
@@ -15,6 +16,13 @@ var name string
 var age uint32
 var height float32
 var chad bool
+```
+
+### Multiple Variable Declaration
++ Multiple variables can be declared in a single line.
++ The syntax it follows is `var nameOfVariable1, nameOfVariable2 typeOfVariable`
+```go
+var fname, lname string
 ```
 
 ## Zero Values
