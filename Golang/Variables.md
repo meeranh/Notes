@@ -25,6 +25,12 @@ var chad bool
 var fname, lname string
 ```
 
+## Multiple One-Line Declarations
++ Variables can also be declared in a single line.
+```go
+name, age := "Meeran", 21
+```
+
 ## Zero Values
 + Variables are initialized with a default zero value.
 + Unlike in C, we don't have to explicitly initialize variables to zero.
