@@ -51,6 +51,18 @@ func main(){
 }
 ```
 
+## Constants
++ These are variables whose values cannot be changed.
++ They are declared using the `const` keyword.
+```go
+func main(){
+    const x int = 5
+    const y float32 = 5.5
+    const z string = "Hello World"
+    const a bool = true
+}
+```
+
 ## Integers & 32/64-bit Systems
 + The size of an integer **depends on the system architecture**.
 + On a **32-bit system**, an **integer is 32 bits** long.
