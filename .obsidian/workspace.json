@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Golang/Interfaces & Structs.md",
-                "mode": "preview",
+                "file": "Golang/Golang - Contents.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Golang/Interfaces & Structs.md",
+                "file": "Golang/Golang - Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Golang/Interfaces & Structs.md",
+                "file": "Golang/Golang - Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Golang/Interfaces & Structs.md"
+                "file": "Golang/Golang - Contents.md"
               }
             }
           }
@@ -148,12 +148,13 @@
   },
   "active": "a18c81a551735508",
   "lastOpenFiles": [
-    "Golang/4913",
-    "Golang/Golang - Contents.md",
-    "Golang/Functions.md",
-    "Golang/Interfaces & Structs.md",
-    "Golang/Interfaces.md",
     "Golang/Types.md",
+    "Golang/Variables.md",
+    "Golang/Golang - Contents.md",
+    "Golang/4913",
+    "Golang/Interfaces & Structs.md",
+    "Golang/Functions.md",
+    "Golang/Interfaces.md",
     "Golang/Packages.md",
     "Golang/The Go Compiler.md",
     "Golang/The Go Compiler.md~",
