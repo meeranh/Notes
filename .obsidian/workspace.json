@@ -11,12 +11,8 @@
             "id": "a18c81a551735508",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Golang/Golang - Contents.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Golang/Golang - Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Golang/Golang - Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Golang/Golang - Contents.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,31 +140,41 @@
   },
   "active": "a18c81a551735508",
   "lastOpenFiles": [
-    "Golang/Types.md",
     "Golang/Variables.md",
-    "Golang/Golang - Contents.md",
-    "Golang/4913",
-    "Golang/Interfaces & Structs.md",
-    "Golang/Functions.md",
-    "Golang/Interfaces.md",
-    "Golang/Packages.md",
+    "Golang/Types.md",
     "Golang/The Go Compiler.md",
-    "Golang/The Go Compiler.md~",
+    "Golang/Packages.md",
+    "Golang/Interfaces & Structs.md",
+    "Golang/Golang - Contents.md",
+    "Golang/Functions.md",
+    "Information Security Policy & Management/ISSP - Issue Specific Security Policy.md",
     "Golang/Documentation.md",
     "Golang/Comments.md",
-    "Golang/Building Binaries & Running JIT.md",
-    "Golang/Building Binaries From Go.md",
-    "Data & Operating System Security/README.md",
-    "Enterprise Standards for Information Security/ISO 9000 & ISO 14000 Standards.md",
-    "Enterprise Standards for Information Security/Environmental Management.md",
-    "Enterprise Standards for Information Security/Quality Management.md",
-    "Cryptography/README.md",
-    "Information Security Policy & Management/README.md",
-    "Enterprise Standards for Information Security/README.md",
-    "Enterprise Standards for Information Security/ISO 9001.md",
-    "Data & Operating System Security",
+    "Golang",
+    "Information Security Policy & Management/Introduction To Information Security Policy & Management.md",
+    "Information Security Policy & Management/SysSP - System Specific Security Policy.md",
+    "Information Security Policy & Management/SysSP - System Specific Security Policy.md~",
+    "Information Security Policy & Management/EISP - Enterprise Security Policy.md",
+    "Information Security Policy & Management/Issue Specific Information Security Policy.md",
+    "Information Security Policy & Management/Enterprise Information Security Policy.md",
+    "Information Security Policy & Management/System Specific Information Security Policy.md",
+    "Information Security Policy & Management/Syllabus.md",
+    "Information Security Policy & Management/4913",
+    "Information Security Policy & Management/Enterprise Information Security Program Policy.md",
+    "Cryptography/Substitution Cipher.md",
+    "Cryptography/Cryptanalysis.md",
+    "Cryptography/Substitution Tables.md",
+    "Cryptography/Polynomials.md",
+    "Cryptography/Prime Numbers.md",
+    "Cryptography/Number Systems.md",
     "Information Security Policy & Management",
+    "Enterprise Standards for Information Security/Syllabus.md",
+    "Enterprise Standards for Information Security/Quality Management.md",
     "Enterprise Standards for Information Security",
-    "Cryptography"
+    "Data & Operating System Security",
+    "Cryptography/Summaries",
+    "Cryptography",
+    "Golang/Variables.md~",
+    "Golang/4913"
   ]
 }
