@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Syllabus.md",
+                "file": "Section 2 - Malware.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Syllabus.md",
+                "file": "Section 2 - Malware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Syllabus.md",
+                "file": "Section 2 - Malware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Syllabus.md"
+                "file": "Section 2 - Malware.md"
               }
             }
           }
@@ -148,9 +148,11 @@
   },
   "active": "2bd735b773fa7c85",
   "lastOpenFiles": [
+    "Syllabus.md",
+    "Section 2 - Malware.md~",
     "4913",
     "Section 1 - Overview of Security.md",
-    "Syllabus.md",
+    "Section 2 - Malware.md",
     "Section 1 - Overview of Security.md~",
     "CIA Triad.md"
   ]
