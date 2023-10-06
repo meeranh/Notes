@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 2 - Malware.md",
+                "file": "Section 4 - Security Applications & Devices.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section 2 - Malware.md",
+                "file": "Section 4 - Security Applications & Devices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section 2 - Malware.md",
+                "file": "Section 4 - Security Applications & Devices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section 2 - Malware.md"
+                "file": "Section 4 - Security Applications & Devices.md"
               }
             }
           }
@@ -148,11 +148,13 @@
   },
   "active": "2bd735b773fa7c85",
   "lastOpenFiles": [
+    "Section 3 - Malware Infections.md",
     "Syllabus.md",
-    "Section 2 - Malware.md~",
     "4913",
-    "Section 1 - Overview of Security.md",
+    "Section 4 - Security Applications & Devices.md",
     "Section 2 - Malware.md",
+    "Section 2 - Malware.md~",
+    "Section 1 - Overview of Security.md",
     "Section 1 - Overview of Security.md~",
     "CIA Triad.md"
   ]
