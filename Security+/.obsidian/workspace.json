@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 4 - Security Applications & Devices.md",
+                "file": "Section 5 - Mobile Device Security.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section 4 - Security Applications & Devices.md",
+                "file": "Section 5 - Mobile Device Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section 4 - Security Applications & Devices.md",
+                "file": "Section 5 - Mobile Device Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section 4 - Security Applications & Devices.md"
+                "file": "Section 5 - Mobile Device Security.md"
               }
             }
           }
@@ -148,10 +148,11 @@
   },
   "active": "2bd735b773fa7c85",
   "lastOpenFiles": [
-    "Section 3 - Malware Infections.md",
-    "Syllabus.md",
     "4913",
     "Section 4 - Security Applications & Devices.md",
+    "Section 5 - Mobile Device Security.md",
+    "Section 3 - Malware Infections.md",
+    "Syllabus.md",
     "Section 2 - Malware.md",
     "Section 2 - Malware.md~",
     "Section 1 - Overview of Security.md",
