@@ -65,3 +65,18 @@ tags: []
     5. [[Section 5 - Mobile Device Security#Mobile Device Theft|Mobile Device Theft]]
     6. [[Section 5 - Mobile Device Security#BYOD|BYOD]]
     7. [[Section 5 - Mobile Device Security#Hardening Mobile Devices|Hardening Mobile Devices]]
+
++ **Section 6 - Hardening**
+    1. [[Section 6 - Hardening#Hardening Mobile Devices|Hardening Mobile Devices]]
+    2. [[Section 6 - Hardening#Unnecessary Applications|Unnecessary Applications]]
+    3. [[Section 6 - Hardening#Restricting Applications|Restricting Applications]]
+    4. [[Section 6 - Hardening#Trusted Operating System (TOS)|Trusted Operating System (TOS)]]
+    5. [[Section 6 - Hardening#Updates & Patches|Updates & Patches]]
+    6. [[Section 6 - Hardening#Patch Management|Patch Management]]
+    7. [[Section 6 - Hardening#Group Policy|Group Policy]]
+    8. [[Section 6 - Hardening#File Systems & Hard Drives|File Systems & Hard Drives]]
+
++ **Section 7 - Supply Chain Assessment**
+    1. [[Section 7 - Supply Chain Assessment#Supply Chain Assessment|Supply Chain Assessment]]
+    2. [[Section 7 - Supply Chain Assessment#Root of Trust (ROT)|Root of Trust (ROT)]]
+    3. [[Section 7 - Supply Chain Assessment#Secure Processing|Secure Processing]]
