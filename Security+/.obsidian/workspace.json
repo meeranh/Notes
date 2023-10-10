@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Syllabus.md",
+                "file": "Section 7 - Supply Chain Assessment.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Syllabus.md",
+                "file": "Section 7 - Supply Chain Assessment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Syllabus.md",
+                "file": "Section 7 - Supply Chain Assessment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Syllabus.md"
+                "file": "Section 7 - Supply Chain Assessment.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "1eef5c1fbcee924b",
   "lastOpenFiles": [
-    "Section 5 - Mobile Device Security.md",
+    "Section 6 - Hardening.md",
+    "Section 7 - Supply Chain Assessment.md",
     "Syllabus.md",
+    "Section 5 - Mobile Device Security.md",
     "4913",
     "Section 4 - Security Applications & Devices.md",
     "Section 3 - Malware Infections.md",
