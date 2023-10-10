@@ -80,3 +80,14 @@ tags: []
     1. [[Section 7 - Supply Chain Assessment#Supply Chain Assessment|Supply Chain Assessment]]
     2. [[Section 7 - Supply Chain Assessment#Root of Trust (ROT)|Root of Trust (ROT)]]
     3. [[Section 7 - Supply Chain Assessment#Secure Processing|Secure Processing]]
+
++ **Section 8 - Virtualization**
+    1. [[Section 8 - Virtualization#Virtualization|Virtualization]]
+    2. [[Section 8 - Virtualization#Hypervisor|Hypervisor]]
+    3. [[Section 8 - Virtualization#Threats to VM|Threats to VM]]
+    4. [[Section 8 - Virtualization#Securing VMs|Securing VMs]]
+
++ **Section 9 - Application Security**
+    1. [[Section 9 - Application Security#Web Browser Security|Web Browser Security]]
+    2. [[Section 9 - Application Security#Web Browser Concerns|Web Browser Concerns]]
+    3. [[Section 9 - Application Security#Securing Applications|Securing Applications]]
