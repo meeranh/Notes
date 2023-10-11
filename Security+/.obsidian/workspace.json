@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 7 - Supply Chain Assessment.md",
+                "file": "Section 9 - Application Security.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section 7 - Supply Chain Assessment.md",
+                "file": "Section 9 - Application Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section 7 - Supply Chain Assessment.md",
+                "file": "Section 9 - Application Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section 7 - Supply Chain Assessment.md"
+                "file": "Section 9 - Application Security.md"
               }
             }
           }
@@ -146,11 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1eef5c1fbcee924b",
+  "active": "2bd735b773fa7c85",
   "lastOpenFiles": [
-    "Section 6 - Hardening.md",
-    "Section 7 - Supply Chain Assessment.md",
+    "Section 8 - Virtualization.md",
+    "Section 9 - Application Security.md",
     "Syllabus.md",
+    "Section 7 - Supply Chain Assessment.md",
+    "Section 6 - Hardening.md",
     "Section 5 - Mobile Device Security.md",
     "4913",
     "Section 4 - Security Applications & Devices.md",
