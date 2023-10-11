@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 9 - Application Security.md",
+                "file": "Section 11 - Network Design.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section 9 - Application Security.md",
+                "file": "Section 11 - Network Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section 9 - Application Security.md",
+                "file": "Section 11 - Network Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section 9 - Application Security.md"
+                "file": "Section 11 - Network Design.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "2bd735b773fa7c85",
   "lastOpenFiles": [
-    "Section 8 - Virtualization.md",
+    "Section 10 - Secure Software Development.md",
+    "Section 11 - Network Design.md",
     "Section 9 - Application Security.md",
+    "Section 8 - Virtualization.md",
     "Syllabus.md",
     "Section 7 - Supply Chain Assessment.md",
     "Section 6 - Hardening.md",
