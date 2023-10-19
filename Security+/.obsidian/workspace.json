@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 11 - Network Design.md",
+                "file": "Syllabus.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section 11 - Network Design.md",
+                "file": "Syllabus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section 11 - Network Design.md",
+                "file": "Syllabus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section 11 - Network Design.md"
+                "file": "Syllabus.md"
               }
             }
           }
@@ -146,11 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2bd735b773fa7c85",
+  "active": "1eef5c1fbcee924b",
   "lastOpenFiles": [
+    "Section 11 - Network Design.md",
+    "Section 12 - Perimeter Security.md",
     "Section 10 - Secure Software Development.md",
     "Syllabus.md",
-    "Section 11 - Network Design.md",
     "Section 9 - Application Security.md",
     "Section 8 - Virtualization.md",
     "Section 7 - Supply Chain Assessment.md",
