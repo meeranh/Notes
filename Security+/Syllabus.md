@@ -115,3 +115,11 @@ tags: []
     8. [[Section 11 - Network Design#Subnetting|Subnetting]]
     9. [[Section 11 - Network Design#Network Address Translation (NAT)|Network Address Translation (NAT)]]
     10. [[Section 11 - Network Design#Telephony|Telephony]]
+
++ **Section 12 - Perimeter Security**
+    1. [[Section 12 - Perimeter Security#Firewalls|Firewalls]]
+    2. [[Section 12 - Perimeter Security#Proxy Servers|Proxy Servers]]
+    3. [[Section 12 - Perimeter Security#Honeypots & Honeynets|Honeypots & Honeynets]]
+    4. [[Section 12 - Perimeter Security#Data Loss Prevention (DLP)|Data Loss Prevention (DLP)]]
+    5. [[Section 12 - Perimeter Security#NIDS vs NIPS|NIDS vs NIPS]]
+    6. [[Section 12 - Perimeter Security#Unified Threat Management (UTM)|Unified Threat Management (UTM)]]
