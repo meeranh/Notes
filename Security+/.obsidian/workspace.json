@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7a8d9fa9eba46197",
+        "id": "1ec4f107f22a46d0",
         "type": "tabs",
         "children": [
           {
-            "id": "2bd735b773fa7c85",
+            "id": "2df7333349ced19b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Syllabus.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "91df2afcb5550237",
@@ -85,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Syllabus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Syllabus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Syllabus.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,12 +139,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1eef5c1fbcee924b",
+  "active": "2df7333349ced19b",
   "lastOpenFiles": [
-    "Section 11 - Network Design.md",
-    "Section 12 - Perimeter Security.md",
-    "Section 10 - Secure Software Development.md",
+    "Section 14 - Automation.md",
+    "Section 13 - Cloud Security.md",
     "Syllabus.md",
+    "Section 12 - Perimeter Security.md",
+    "Section 11 - Network Design.md",
+    "Section 10 - Secure Software Development.md",
     "Section 9 - Application Security.md",
     "Section 8 - Virtualization.md",
     "Section 7 - Supply Chain Assessment.md",

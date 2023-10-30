@@ -1,8 +1,8 @@
 ---
-id: "Syllabus"
+id: Syllabus
 aliases:
-  - "Security+ Syllabus"
-  - "Security+ Sections"
+  - Security+ Syllabus
+  - Security+ Sections
 tags: []
 ---
 ## Security+ Sections
@@ -123,3 +123,21 @@ tags: []
     4. [[Section 12 - Perimeter Security#Data Loss Prevention (DLP)|Data Loss Prevention (DLP)]]
     5. [[Section 12 - Perimeter Security#NIDS vs NIPS|NIDS vs NIPS]]
     6. [[Section 12 - Perimeter Security#Unified Threat Management (UTM)|Unified Threat Management (UTM)]]
+
++ **Section 13 - Cloud Security**
+    1. [[Section 13 - Cloud Security#Cloud Security|Cloud Security]]
+    2. [[Section 13 - Cloud Security#Cloud Types|Cloud Types]]
+    3. [[Section 13 - Cloud Security#As A Service|As A Service]]
+    4. [[Section 13 - Cloud Security#Cloud Security|Cloud Security]]
+    5. [[Section 13 - Cloud Security#Defending Servers|Defending Servers]]
+    6. [[Section 13 - Cloud Security#Cloud-Based Infrastructure|Cloud-Based Infrastructure]]
+    7. [[Section 13 - Cloud Security#Cloud Access Security Broker (CASB)|Cloud Access Security Broker (CASB)]]
+    8. [[Section 13 - Cloud Security#Function as a Service (FaaS)|Function as a Service (FaaS)]]
+    9. [[Section 13 - Cloud Security#Cloud Threats|Cloud Threats]]
+
++ **Section 14 - Automation**
+    1. [[Section 14 - Automation#Workflow Orchestration|Workflow Orchestration]]
+    2. [[Section 14 - Automation#CI/CD|CI/CD]]
+    3. [[Section 14 - Automation#DevSecOps|DevSecOps]]
+    4. [[Section 14 - Automation#Infrastructure as Code (IAC)|Infrastructure as Code (IAC)]]
+    5. [[Section 14 - Automation#Machine Learning|Machine Learning]]
