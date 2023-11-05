@@ -11,8 +11,12 @@
             "id": "2df7333349ced19b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Section 15 - Network Attacks.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "91df2afcb5550237",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Section 15 - Network Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Section 15 - Network Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Section 15 - Network Attacks.md"
+              }
             }
           }
         ]
@@ -141,9 +148,10 @@
   },
   "active": "2df7333349ced19b",
   "lastOpenFiles": [
+    "Syllabus.md",
+    "Section 15 - Network Attacks.md",
     "Section 14 - Automation.md",
     "Section 13 - Cloud Security.md",
-    "Syllabus.md",
     "Section 12 - Perimeter Security.md",
     "Section 11 - Network Design.md",
     "Section 10 - Secure Software Development.md",
