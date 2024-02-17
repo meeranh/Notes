@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Golang/Comments.md",
-                "mode": "source",
+                "file": "Active Directory on Windows Server.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Golang/Comments.md",
+                "file": "Active Directory on Windows Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Golang/Comments.md",
+                "file": "Active Directory on Windows Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Golang/Comments.md"
+                "file": "Active Directory on Windows Server.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "a18c81a551735508",
   "lastOpenFiles": [
+    "The Complete Cyber Security Course : Network Security.md",
+    "rajanganeHamaduruow.txt",
     "Golang/Variables.md",
     "Golang/Types.md",
     "Golang/The Go Compiler.md",
@@ -177,12 +179,10 @@
     "Cryptography/Number Systems.md",
     "Information Security Policy & Management",
     "Enterprise Standards for Information Security/Syllabus.md",
-    "Enterprise Standards for Information Security/Quality Management.md",
     "Enterprise Standards for Information Security",
     "Data & Operating System Security",
     "Cryptography/Summaries",
     "Cryptography",
-    "Golang/Variables.md~",
-    "Golang/4913"
+    "Golang/Variables.md~"
   ]
 }
