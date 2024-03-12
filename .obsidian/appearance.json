@@ -1,5 +1,6 @@
 {
   "accentColor": "",
-  "cssTheme": "LYT Mode",
-  "baseFontSize": 15
+  "cssTheme": "Obsidian gruvbox",
+  "baseFontSize": 15,
+  "theme": "obsidian"
 }
