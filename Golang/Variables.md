@@ -1,10 +1,3 @@
----
-id: "Variables"
-aliases:
-  - "Variable Declaration"
-tags: []
----
-
 ## Variable Declaration
 
 ### Single Variable Declaration

@@ -1,10 +1,3 @@
----
-id: "Documentation"
-aliases:
-  - "CLI Documentation"
-tags: []
----
-
 ## CLI Documentation
 + The `doc` CLI parameter for the `go` command is like a **manpage for Golang**.
 1. Display documentation for a **package**:

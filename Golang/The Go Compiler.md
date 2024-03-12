@@ -1,11 +1,3 @@
----
-id: "The Go Compiler"
-aliases:
-  - "Compiling Go To Binaries"
-  - "Compiling Go Into Binaries"
-tags: []
----
-
 ## Compiling Go Into Binaries
 
 + Assume that we have a file containing Go source named `main.go`.

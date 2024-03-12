@@ -1,10 +1,3 @@
----
-id: "Packages"
-aliases:
-  - "What Are Packages In Go"
-tags: []
----
-
 ## What Are Packages In Go
 + Packages are **very similar to libraries in Python**.
 + **Folders containing Go source files** are called packages.

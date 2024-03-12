@@ -1,11 +1,3 @@
----
-id: "Functions"
-aliases:
-  - "Main Function"
-  - "Function Syntax"
-tags: []
----
-
 ## Function Syntax
 ```go
 func functionName(parameter type)(returnValue type){

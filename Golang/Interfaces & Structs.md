@@ -1,10 +1,3 @@
----
-id: "Interfaces & Structs"
-aliases:
-  - "Structs"
-tags: []
----
-
 # Structs
 
 ### What Are Structs?

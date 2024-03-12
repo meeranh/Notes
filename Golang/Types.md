@@ -1,11 +1,3 @@
----
-id: "Types"
-aliases:
-  - "Why Types Are Important"
-  - "Why Types Are Important In Go"
-tags: []
----
-
 ## Why Types Are Important In Go
 + Types are important because they **tell the compiler how to interpret the data**.
 + For example, the following code will **not compile**:

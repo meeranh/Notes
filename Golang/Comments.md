@@ -1,10 +1,3 @@
----
-id: "Comments"
-aliases:
-  - "Line Comments"
-tags: []
----
-
 ## Line Comments
 + These are comments **only for a single line**.
 

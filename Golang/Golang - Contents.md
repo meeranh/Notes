@@ -1,9 +1,3 @@
----
-id: "Golang - Contents"
-aliases:
-  - "Contents"
-tags: []
----
 # Contents
 
 1. **[[The Go Compiler]]**

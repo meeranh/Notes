@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "5bdd6704259309d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "9476ab69bb2ca459",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fdfb996f55478232",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Golang - Contents.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ef13f76aee502a3b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4b56c96b0757890",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f80d22cb01abd16",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "037b14e5e8ea2205",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1eb55825d140fbb3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7ca1eb6e5da9716f",
+    "type": "split",
+    "children": [
+      {
+        "id": "91b53f3d7b3a38b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a45366becbd9200",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Golang - Contents.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6acc288831553612",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Golang - Contents.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d5ca80209b57ba6c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d37368d2e920c2fc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Golang - Contents.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "fdfb996f55478232",
+  "lastOpenFiles": [
+    "Comments.md~",
+    "Documentation.md~",
+    "Functions.md~",
+    "Golang - Contents.md~",
+    "Variables.md~",
+    "Types.md~",
+    "Packages.md~",
+    "Interfaces & Structs.md~",
+    "The Go Compiler.md~",
+    "Types.md",
+    "Golang - Contents.md",
+    "Functions.md",
+    "Packages.md",
+    "Interfaces & Structs.md",
+    "Documentation.md",
+    "Comments.md"
+  ]
+}
