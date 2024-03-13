@@ -1,1 +1,12 @@
+# Obsidian Workspace Files
 workspace.json
+
+# Golang Files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
