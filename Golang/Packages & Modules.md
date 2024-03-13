@@ -93,6 +93,19 @@ func Subtract(a, b int) int {
 }
 ```
 
+# Exporting functions
++ There is not specific keyword to let Go know that you want to export a function in a package, you just have to **capitalize the first letter of the function** if you want to export a function. For example:
+```go
+func ThisWillGetExported() {
+    // Stuff here
+}
+```
+```go
+func thisWillNotGetExported() {
+    // Stuff here
+}
+```
+
 # Importing packages locally
 
 + Usually, packages are meant to be imported from remote sources such as `import github.com/meeranh/math`. However, if we did not want to host our packages, and just wanted to source it locally, this are the steps we need to follow:
