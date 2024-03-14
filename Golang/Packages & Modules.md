@@ -119,3 +119,14 @@ func thisWillNotGetExported() {
     5. Finally, `import github.com/username/package` to your main Go file and run it.
 
 + What this process basically does is it remaps a remote location URL to a local file path. By doing this, Go will reroute itself to this local path whenever the remote URL is called.
+
+# Sub-packages
+
++ This is when you have a package inside another package. The best example of a sub-package is `math/rand`.
++ The directory structure of the `math/rand` sub-package would look like this:
+```unix
+math/
+    rand/
+        rand.go
+    math.go
+```

@@ -77,3 +77,60 @@ func main(){
 + If Go compiled a program on a 64-bit system, it **will convert all `int` data types to `uint`**.
 + This is because **`int` is 32 bits** in size, but **`uint` is 64 bits** in size.
 + It is better to use `int` instead of `uint` as it will make the code **more portable**.
+
+## Variables With Initializers
++ If you want to initialize multiple variables with values, this is how you do it:
+```go
+var x, y, z int = 5, 10, 15
+```
++ The compiler also can automatically identify the datatype:
+```go
+var x, y, z = "Cat", true, 1
+```
+
+## Short Assignment
++ The *short assignment* operator denoted by *:=* can be used inside a function. Anything that is declared outside a function will require a keyword such as `var` or `func`.
++ The short assignment operator does not require an explicit type.
+```go
+func main() {
+    k := 5
+    x, y, z := 1, 2, "Hello"
+}
+```
+
+## IOTA (Incremental Constants)
++ `iota` is a feature where after you declare one constant:
+    + The next constant will be incremented by 1
+    + The following constant will be incremented by 2
+    + The following constant will be incremented by 3
+    + And so on...
+```go
+const (
+    zero int = iota
+    one
+    two
+)
+
+func main(){
+    fmt.Println(zero) // Prints 0
+    fmt.Println(one)  // Prints 1
+    fmt.Println(two)  // Prints 2
+}
+```
+
+# Numeric Constants via Binary Shifts
++ In Go, you can declare constants using [[Binary Shifts]]
+```go
+const (
+    KB = 1 << (100)
+    MB = 1 << (200)
+    GB = 1 << (300)
+)
+
+func main() {
+    fmt.Println(KB) // Prints 1024
+    fmt.Println(MB) // Prints 1048576
+    fmt.Println(GB) // Prints 1073741824
+}
+```
++ Its basically a binary shift (multiplication of 2), In other words, the `<<` operator will add 100 zeroes to KB, 200 zeroes to MB, and 300 zeroes to GB.
