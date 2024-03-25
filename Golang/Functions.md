@@ -86,3 +86,35 @@ func sum(nums ...int) {
 + The ... operator is used to denote that the function can take in any number of parameters.
 + The passed in values will become a slice of the type specified in the function signature.
 + We can then use a `for` loop to iterate over the slice and process the values.
+
+### Anonymous Functions
++ Anonymous functions are functions that are declared without any name.
++ You can declare a variable, and assign it a function.
+```go
+func main() {
+    add := func(x, y int) int {
+        return x + y
+    }
+    fmt.Println(add(3, 4))
+}
+```
+
+### Immediately Invoked Function Expression (IIFE)
++ An IIFE is a function that is declared and run as soon as it is declared.
++ After finishing writing and closing the function, pass in your parameters inside a `()` as follows:
+```go
+func main() {
+    func(msg string) {
+        fmt.Println(msg)
+    }("Hello")
+}
+```
++ Or you could also create a variable and store an IIFE's return value as so:
+```go
+func main() {
+    result := func(x, y int) int {
+        return x + y
+    }(3, 4)
+    fmt.Println(result) // 7
+}
+```
