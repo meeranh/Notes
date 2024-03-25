@@ -51,3 +51,20 @@ func AddTen(sum int) (x, y int) {
 }
 ```
 + This function then can be called like a normal multiple return value function, and even multiple assignment can be done as usual.
+
+### Functions As Values
++ You can also pass function names as parameters to a function, for example, lets say we have declared an `add()` function:
+```go
+func add(x, y int) int {
+    return x + y
+}
+```
+
++ We can pass this function as a parameter to another function:
+```go
+func compute(fn func(int, int) int) {
+    fmt.Println(fn(3, 4))
+}
+
+fmt.Println(compute(add))
+```
