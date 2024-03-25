@@ -68,3 +68,21 @@ func compute(fn func(int, int) int) {
 
 fmt.Println(compute(add))
 ```
+
+### Pro Functions
++ Imagine you needed a function that takes in an unlimited number of parameters and you wanted to process them.
++ You can use the `...` operator to achieve this.
+```go
+func sum(nums ...int) {
+    fmt.Print(nums, " ") // [1 2 3]
+    total := 0
+    for _, num := range nums {
+        total += num
+    }
+    fmt.Println(total) // 6
+}
+```
+
++ The ... operator is used to denote that the function can take in any number of parameters.
++ The passed in values will become a slice of the type specified in the function signature.
++ We can then use a `for` loop to iterate over the slice and process the values.
