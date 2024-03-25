@@ -3,7 +3,7 @@
 + There are two ways to create a map, you can either create a fixed size map or a dynamic map.
 
 ## A Fixed Sized Map via `new`
-+ When creating a map like this, you will not be able to add or remove elements from the map. This is because the `new` keyword is used behind the scenes.
++ When creating a map like this, usually you will assign a fixed set of key-value pairs, and not append to it later.
 + This is because the compiler will allocate a fixed amount of memory for this specific variable.
 ```go
 func main() {
@@ -16,13 +16,10 @@ func main() {
 ```
 
 ## A Dynamic Sized Map via `make`
-+ One important thing with maps in Go is that when you create a map, it should be created with the `make` function as follows:
++ If you were to initialize a map, and later add new values to it in the form of key-value pairs, it is advised to use the `make` keyword:
 ```
 func main() {
     varName := make(map[keyType]valueType)
-    varName[key1] = value1
-    varName[key2] = value2
-    varName[key3] = value3
 }
 ```
 
