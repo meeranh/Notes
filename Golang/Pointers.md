@@ -1,4 +1,5 @@
 # Pointers
++ Watch this [video](https://www.youtube.com/watch?v=sTFJtxJXkaY) as this will be enough to understand pointers.
 ## Pointer Creation & Dereferencing
 + These are memory addresses of variables.
 + There are two special functions of pointers:
