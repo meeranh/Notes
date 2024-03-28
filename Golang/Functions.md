@@ -118,3 +118,21 @@ func main() {
     fmt.Println(result) // 7
 }
 ```
+
+### Closure
++ Simply, closures are functions that return functions.
++ Imagine you were declaring a function, the return type of that function would be `func`.
++ In the following example, we will return a function that prints out its parameters:
+```go
+// Returns a function that prints its parameters
+func catParam(x string) func() {
+	return func() {
+		fmt.Println(x)
+	}
+}
+
+func main() {
+	// Calling the closure
+	catParam("This is a closure")()
+}
+```
