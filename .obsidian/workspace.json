@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Golang/Pointers.md",
+                "file": "Golang/Channels.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Golang/Pointers.md",
+                "file": "Golang/Channels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Golang/Pointers.md",
+                "file": "Golang/Channels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Golang/Pointers.md"
+                "file": "Golang/Channels.md"
               }
             }
           },
@@ -160,11 +160,17 @@
   },
   "active": "5d3f2ca10e5de1a0",
   "lastOpenFiles": [
+    "Golang/Golang - Contents.md~",
+    "Golang/Channels.md~",
+    "Golang/Goroutines.md",
+    "Golang/Channels.md",
+    "Golang/Functions.md",
+    "Golang/Documentation.md",
+    "Golang/Pointers.md",
     "Golang/Mutexes.md",
     "Golang/Examples/channels/main.go~",
     "Golang/Examples/channels/main.go",
     "Golang/Examples/channels",
-    "Golang/Goroutines.md",
     "Golang/Arrays & Slices.md",
     "Golang/Conditionals.md",
     "Golang/Mutexes.md~",
@@ -173,14 +179,11 @@
     "Golang/Examples/mutexes/main.go",
     "Golang/Examples/mutexes",
     "Golang/Examples/mutex",
-    "Golang/Examples/goroutine/main.go~",
     "Golang/Iteration.md",
     "Golang/Interfaces & Structs.md",
     "Golang/Golang - Contents.md",
-    "Golang/Pointers.md",
     "Golang/The Go Compiler.md",
     "Golang/Methods.md",
-    "Golang/Functions.md",
     "Golang/Maps.md",
     "Deep Work - Rules for Focused Success in a Distracted World/KeyPoints.md",
     "Golang/Variables.md",
@@ -188,12 +191,10 @@
     "Golang/Structs.md",
     "Golang/Defer.md",
     "Golang/Loops.md",
-    "Golang/Documentation.md",
     "Golang/Comments.md",
     "Golang/Arrays.md",
     "Golang/Binary Shifts.md",
     "Security+/Syllabus.md",
-    "Golang/Types.md",
-    "Security+/Section 7 - Supply Chain Assessment.md"
+    "Golang/Types.md"
   ]
 }
