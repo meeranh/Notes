@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "c99657c377099a5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f87d83ed1d5b39c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d3f2ca10e5de1a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Golang/Pointers.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2d11fd89b61ed868",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ab491ff865bf1d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b13f9c8b1df6f29",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1fa1d00d253c35cd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d8f38cc977ebe3bf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a608e93921701a36",
+    "type": "split",
+    "children": [
+      {
+        "id": "4845ff5e134144b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b7e731d3a974ec4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Golang/Pointers.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6bd28fdc2ef4bf73",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Golang/Pointers.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6088e875aae8b850",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cb34712fea04f809",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Golang/Pointers.md"
+              }
+            }
+          },
+          {
+            "id": "7d5d51116bc8bddb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5d3f2ca10e5de1a0",
+  "lastOpenFiles": [
+    "Golang/Mutexes.md",
+    "Golang/Examples/channels/main.go~",
+    "Golang/Examples/channels/main.go",
+    "Golang/Examples/channels",
+    "Golang/Goroutines.md",
+    "Golang/Arrays & Slices.md",
+    "Golang/Conditionals.md",
+    "Golang/Mutexes.md~",
+    "Golang/Goroutines.md~",
+    "Golang/Examples/mutexes/main.go~",
+    "Golang/Examples/mutexes/main.go",
+    "Golang/Examples/mutexes",
+    "Golang/Examples/mutex",
+    "Golang/Examples/goroutine/main.go~",
+    "Golang/Iteration.md",
+    "Golang/Interfaces & Structs.md",
+    "Golang/Golang - Contents.md",
+    "Golang/Pointers.md",
+    "Golang/The Go Compiler.md",
+    "Golang/Methods.md",
+    "Golang/Functions.md",
+    "Golang/Maps.md",
+    "Deep Work - Rules for Focused Success in a Distracted World/KeyPoints.md",
+    "Golang/Variables.md",
+    "Golang/Packages & Modules.md",
+    "Golang/Structs.md",
+    "Golang/Defer.md",
+    "Golang/Loops.md",
+    "Golang/Documentation.md",
+    "Golang/Comments.md",
+    "Golang/Arrays.md",
+    "Golang/Binary Shifts.md",
+    "Security+/Syllabus.md",
+    "Golang/Types.md",
+    "Security+/Section 7 - Supply Chain Assessment.md"
+  ]
+}
