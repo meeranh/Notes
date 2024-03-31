@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package mental;
+option go_package = "./";
+
+message Mental {
+	uint32 iq = 1;
+	string qualifications = 2;
+}
