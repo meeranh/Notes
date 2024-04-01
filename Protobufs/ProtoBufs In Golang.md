@@ -24,8 +24,10 @@ import pb "github.com/username/repo/package/proto"
 
 # Creating Pointers And References
 + When creating structs out of Protobufs, you should create pointers and references.
-+ This is because Protobufs are immutable and you will have to use pointers to modify them.
-+ You can create a pointer to a struct by using the `&` operator:
++ You can create a pointer to a struct by using the `&` operator.
++ So lets say you used `user := &pb.User{Id: 1, Name: "John Doe"}`.
++ What is happening is you are creating a new `pb.User` instance and storing it in memory.
++ The memory address of that struct is only being saved into `user`.
 ```go
 package main
 import pb "github.com/username/repo/package/proto"
