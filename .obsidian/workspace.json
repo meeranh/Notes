@@ -160,6 +160,7 @@
   },
   "active": "5d3f2ca10e5de1a0",
   "lastOpenFiles": [
+    "Protobufs/Serializaion & Deserialization.md",
     "Protobufs/DataTypes.md",
     "Protobufs/Data Types.md",
     "Protobufs/Protoc Advanced.md",
@@ -194,7 +195,6 @@
     "Golang/Methods.md",
     "Golang/Maps.md",
     "Deep Work - Rules for Focused Success in a Distracted World/KeyPoints.md",
-    "Golang/Variables.md",
-    "Golang/Packages & Modules.md"
+    "Golang/Variables.md"
   ]
 }
