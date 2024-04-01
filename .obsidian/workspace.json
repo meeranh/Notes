@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Golang/Channels.md",
+                "file": "Protobufs/DataTypes.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Golang/Channels.md",
+                "file": "Protobufs/DataTypes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Golang/Channels.md",
+                "file": "Protobufs/DataTypes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Golang/Channels.md"
+                "file": "Protobufs/DataTypes.md"
               }
             }
           },
@@ -160,10 +160,22 @@
   },
   "active": "5d3f2ca10e5de1a0",
   "lastOpenFiles": [
+    "Protobufs/DataTypes.md~",
+    "Protobufs/Enums.md",
+    "Protobufs/Enums.md~",
+    "Protobufs/NestedMessages.md",
+    "Protobufs/RepeatedFields.md",
+    "Protobufs/Imports & Packages.md~",
+    "Protobufs/NestedMessages.md~",
+    "Protobufs/Comments.md~",
+    "Protobufs/RepeatedFields.md~",
+    "Protobufs/DataTypes.md",
+    "Protobufs/Tags.md",
+    "Protobufs/Compiling.md",
+    "Golang/Channels.md",
     "Golang/Golang - Contents.md~",
     "Golang/Channels.md~",
     "Golang/Goroutines.md",
-    "Golang/Channels.md",
     "Golang/Functions.md",
     "Golang/Documentation.md",
     "Golang/Pointers.md",
@@ -173,12 +185,6 @@
     "Golang/Examples/channels",
     "Golang/Arrays & Slices.md",
     "Golang/Conditionals.md",
-    "Golang/Mutexes.md~",
-    "Golang/Goroutines.md~",
-    "Golang/Examples/mutexes/main.go~",
-    "Golang/Examples/mutexes/main.go",
-    "Golang/Examples/mutexes",
-    "Golang/Examples/mutex",
     "Golang/Iteration.md",
     "Golang/Interfaces & Structs.md",
     "Golang/Golang - Contents.md",
@@ -189,12 +195,6 @@
     "Golang/Variables.md",
     "Golang/Packages & Modules.md",
     "Golang/Structs.md",
-    "Golang/Defer.md",
-    "Golang/Loops.md",
-    "Golang/Comments.md",
-    "Golang/Arrays.md",
-    "Golang/Binary Shifts.md",
-    "Security+/Syllabus.md",
-    "Golang/Types.md"
+    "Golang/Defer.md"
   ]
 }
