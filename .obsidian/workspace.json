@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protobufs/DataTypes.md",
+                "file": "Protobufs/Protoc Advanced.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Protobufs/DataTypes.md",
+                "file": "Protobufs/Protoc Advanced.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Protobufs/DataTypes.md",
+                "file": "Protobufs/Protoc Advanced.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Protobufs/DataTypes.md"
+                "file": "Protobufs/Protoc Advanced.md"
               }
             }
           },
@@ -160,10 +160,11 @@
   },
   "active": "5d3f2ca10e5de1a0",
   "lastOpenFiles": [
+    "Protobufs/DataTypes.md",
+    "Protobufs/Data Types.md",
     "Protobufs/Protoc Advanced.md",
     "Protobufs/Protoc Advanced.md~",
     "Protobufs/ProtoBufs In Golang.md",
-    "Protobufs/DataTypes.md",
     "Protobufs/DataTypes.md~",
     "Protobufs/Enums.md",
     "Protobufs/Enums.md~",
@@ -194,7 +195,6 @@
     "Golang/Maps.md",
     "Deep Work - Rules for Focused Success in a Distracted World/KeyPoints.md",
     "Golang/Variables.md",
-    "Golang/Packages & Modules.md",
-    "Golang/Structs.md"
+    "Golang/Packages & Modules.md"
   ]
 }
