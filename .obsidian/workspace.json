@@ -160,6 +160,10 @@
   },
   "active": "5d3f2ca10e5de1a0",
   "lastOpenFiles": [
+    "Protobufs/Protoc Advanced.md",
+    "Protobufs/Protoc Advanced.md~",
+    "Protobufs/ProtoBufs In Golang.md",
+    "Protobufs/DataTypes.md",
     "Protobufs/DataTypes.md~",
     "Protobufs/Enums.md",
     "Protobufs/Enums.md~",
@@ -169,7 +173,6 @@
     "Protobufs/NestedMessages.md~",
     "Protobufs/Comments.md~",
     "Protobufs/RepeatedFields.md~",
-    "Protobufs/DataTypes.md",
     "Protobufs/Tags.md",
     "Protobufs/Compiling.md",
     "Golang/Channels.md",
@@ -181,8 +184,6 @@
     "Golang/Pointers.md",
     "Golang/Mutexes.md",
     "Golang/Examples/channels/main.go~",
-    "Golang/Examples/channels/main.go",
-    "Golang/Examples/channels",
     "Golang/Arrays & Slices.md",
     "Golang/Conditionals.md",
     "Golang/Iteration.md",
@@ -194,7 +195,6 @@
     "Deep Work - Rules for Focused Success in a Distracted World/KeyPoints.md",
     "Golang/Variables.md",
     "Golang/Packages & Modules.md",
-    "Golang/Structs.md",
-    "Golang/Defer.md"
+    "Golang/Structs.md"
   ]
 }
