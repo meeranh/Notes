@@ -1,0 +1,12 @@
+syntax = "proto3";
+package friends;
+
+option go_package = "github.com/meeranh/protobuf";
+
+message NameWrapper {
+	string name = 1;
+}
+
+message Friends {
+	map<sint32, NameWrapper> friends = 1;
+}
