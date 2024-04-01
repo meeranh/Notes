@@ -7,4 +7,4 @@
 *.test
 *.out
 go.work
-*.pg.go
+*.pb.go
