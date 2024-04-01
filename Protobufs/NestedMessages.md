@@ -3,7 +3,7 @@
 + However, it is not a good practice to define a message inside another message.
 + It is better to define the nested message outside the parent message.
 
-```proto
+```protobuf
 message Person {
   string name = 1;
   int32 id = 2;

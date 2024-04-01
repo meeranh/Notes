@@ -3,7 +3,7 @@
 ## Single Line Comments
 + Single line comments are created using `//` and can be placed anywhere in the file.
 
-```proto
+```protobuf
 // This is a single line comment
 message Person {
   // This is another single line comment
@@ -14,7 +14,7 @@ message Person {
 ## Multi Line Comments
 + Multi line comments are created using `/*` and `*/` and can be placed anywhere in the file.
 
-```proto
+```protobuf
 /*
 This is a multi line comment
 It can span multiple lines

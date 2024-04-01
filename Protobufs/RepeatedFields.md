@@ -2,7 +2,7 @@
 + Imagine you want to send an array/list of values in that field.
 + For example, you want to send a list of phone numbers of a person.
 + In this case, you can use repeated fields like the following:
-```proto
+```protobuf
 message Person {
   string name = 1;
   int32 id = 2;
@@ -11,7 +11,7 @@ message Person {
 ```
 
 + So when sending, we can send multiple phone numbers like the following:
-```proto
+```protobuf
 {
   "name": "John Doe",
   "id": 1234,

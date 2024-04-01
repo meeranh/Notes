@@ -29,7 +29,7 @@
     5. *Height*
 
 ```protobuf
-syntax = "protobuf";
+syntax = "proto3";
 
 message Account {
     uint32 id = 1;
