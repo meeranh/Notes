@@ -8,7 +8,7 @@ import (
 
 func getEnum() *enumPb.Enumeration {
 	return &enumPb.Enumeration{
-		EyeColor: 1,
+		EyeColor: enumPb.EyeColor_EYE_COLOR_RED,
 	}
 }
 
