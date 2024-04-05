@@ -1,0 +1,15 @@
+syntax = "proto3";
+package hello;
+option go_package = "github.com/meeranh/protobuf";
+
+message HelloRequest {
+	string name = 1;
+}
+
+message HelloResponse {
+	string result = 1;
+}
+
+service HelloService {
+	rpc Hello(HelloRequest) returns (stream HelloResponse);
+}
