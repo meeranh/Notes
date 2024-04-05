@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f87d83ed1d5b39c6",
+        "id": "94380be3544ec9fa",
         "type": "tabs",
         "children": [
           {
-            "id": "5d3f2ca10e5de1a0",
+            "id": "23353ec082a81861",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Protobufs/Protoc Advanced.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Protobufs/Protoc Advanced.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Protobufs/Protoc Advanced.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Protobufs/Protoc Advanced.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,16 +150,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5d3f2ca10e5de1a0",
+  "active": "23353ec082a81861",
   "lastOpenFiles": [
+    "Protobufs/Enums.md",
+    "Protobufs/Protoc Advanced.md",
     "Protobufs/Serializaion & Deserialization.md",
     "Protobufs/DataTypes.md",
     "Protobufs/Data Types.md",
-    "Protobufs/Protoc Advanced.md",
     "Protobufs/Protoc Advanced.md~",
     "Protobufs/ProtoBufs In Golang.md",
     "Protobufs/DataTypes.md~",
-    "Protobufs/Enums.md",
     "Protobufs/Enums.md~",
     "Protobufs/NestedMessages.md",
     "Protobufs/RepeatedFields.md",
