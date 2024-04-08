@@ -11,8 +11,12 @@
             "id": "23353ec082a81861",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Layers.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Docker/Layers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Docker/Layers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Docker/Layers.md"
+              }
             }
           },
           {
@@ -152,6 +160,9 @@
   },
   "active": "23353ec082a81861",
   "lastOpenFiles": [
+    "Docker/Layers.md~",
+    "Docker/Docker Repositories.md",
+    "Docker/Building Images.md",
     "Protobufs/Enums.md",
     "Protobufs/Protoc Advanced.md",
     "Protobufs/Serializaion & Deserialization.md",
@@ -184,9 +195,6 @@
     "Golang/Interfaces & Structs.md",
     "Golang/Golang - Contents.md",
     "Golang/The Go Compiler.md",
-    "Golang/Methods.md",
-    "Golang/Maps.md",
-    "Deep Work - Rules for Focused Success in a Distracted World/KeyPoints.md",
-    "Golang/Variables.md"
+    "Golang/Methods.md"
   ]
 }
