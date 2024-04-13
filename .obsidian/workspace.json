@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Layers.md",
-                "mode": "source",
+                "file": "Object Oriented Concepts/Inheritance.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Layers.md",
+                "file": "Object Oriented Concepts/Inheritance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Layers.md",
+                "file": "Object Oriented Concepts/Inheritance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Layers.md"
+                "file": "Object Oriented Concepts/Inheritance.md"
               }
             }
           },
@@ -160,7 +160,26 @@
   },
   "active": "23353ec082a81861",
   "lastOpenFiles": [
-    "Docker/Layers.md~",
+    "Object Oriented Concepts/Inheritance.md~",
+    "Object Oriented Concepts/Polymorphism.md",
+    "Solid Principles/Single Responsibility Principle.md",
+    "Object Oriented Concepts/Polymorphism.md~",
+    "Object Oriented Concepts/Inheritance.md",
+    "Object Oriented Concepts/Abstraction.md~",
+    "Object Oriented Concepts/Abstraction.md",
+    "Object Oriented Concepts/Encapsulation.md~",
+    "Solid Principles/Open Closed Principle.md",
+    "Solid Principles/Liskov Substitution Principle.md",
+    "Solid Principles/Interface Segregation Principle.md",
+    "Solid Principles/Dependency Inversion Principle.md",
+    "Object Oriented Concepts/Encapsulation.md",
+    "Object Oriented Concepts",
+    "Solid Principles/Dependency Inversion Principle.md~",
+    "Solid Principles/Interface Segregation Principle.md~",
+    "Solid Principles/Interface Segregation Principle",
+    "Solid Principles/Liskov Substitution Principle.md~",
+    "Solid Principles/Open Closed Principle.md~",
+    "Docker/Layers.md",
     "Docker/Docker Repositories.md",
     "Docker/Building Images.md",
     "Protobufs/Enums.md",
@@ -168,33 +187,13 @@
     "Protobufs/Serializaion & Deserialization.md",
     "Protobufs/DataTypes.md",
     "Protobufs/Data Types.md",
-    "Protobufs/Protoc Advanced.md~",
     "Protobufs/ProtoBufs In Golang.md",
-    "Protobufs/DataTypes.md~",
-    "Protobufs/Enums.md~",
     "Protobufs/NestedMessages.md",
     "Protobufs/RepeatedFields.md",
-    "Protobufs/Imports & Packages.md~",
-    "Protobufs/NestedMessages.md~",
-    "Protobufs/Comments.md~",
-    "Protobufs/RepeatedFields.md~",
     "Protobufs/Tags.md",
     "Protobufs/Compiling.md",
     "Golang/Channels.md",
-    "Golang/Golang - Contents.md~",
-    "Golang/Channels.md~",
     "Golang/Goroutines.md",
-    "Golang/Functions.md",
-    "Golang/Documentation.md",
-    "Golang/Pointers.md",
-    "Golang/Mutexes.md",
-    "Golang/Examples/channels/main.go~",
-    "Golang/Arrays & Slices.md",
-    "Golang/Conditionals.md",
-    "Golang/Iteration.md",
-    "Golang/Interfaces & Structs.md",
-    "Golang/Golang - Contents.md",
-    "Golang/The Go Compiler.md",
-    "Golang/Methods.md"
+    "Golang/Functions.md"
   ]
 }
