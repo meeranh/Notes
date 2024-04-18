@@ -6,58 +6,42 @@
 + You only want to show them a set of functions that they can just pass their inputs and get the output.
 + These types of simple functions are called **abstractions**.
 + The following code example is how you implement a class without abstractions:
-```java
-class Car {
-    String make;
-    String model;
-    int year;
-    String color;
-    int price;
-    String owner;
-    
-    public void startEngine() {
-        System.out.println("Engine started");
-    }
+```python
+class Car
+	def __init__(self, make, model, year, color, price, owner):
+        self.make = make
+        self.model = model
+        self.year = year
+        self.color = color
+        self.price = price
+        self.owner = owner
 
-    public void sendPowerToWheels() {
-        System.out.println("Power sent to wheels");
-    }
-    
-    public void enableStabizers() {
-        System.out.println("Stabilizers enabled");
-    }
-}
+	def start_engine(self):
+        print("Engine started")
+
+	def send_power_to_wheels(self):
+        print("Power sent to wheels")
+
+	def enable_stabilizers(self):
+        print("Stabilizers enabled")
 ```
 
 + The above class gives too much control over the car to the user. This is not a good practice.
 + Instead you need to create one public method that the user can use to start the car:
-```java
-class Car {
-    String make;
-    String model;
-    int year;
-    String color;
-    int price;
-    String owner;
-    
-    public void startCar() {
-        startEngine();
-        sendPowerToWheels();
-        enableStabizers();
-    }
+```python
+class Car:
+	def __init__(self, make, model, year, color, price, owner):
+		self.make = make
+		self.model = model
+		self.year = year
+		self.color = color
+		self.price = price
+		self.owner = owner
 
-    private void startEngine() {
-        System.out.println("Engine started");
-    }
-
-    private void sendPowerToWheels() {
-        System.out.println("Power sent to wheels");
-    }
-    
-    private void enableStabizers() {
-        System.out.println("Stabilizers enabled");
-    }
-}
+	def start_car(self):
+		self.start_engine()
+		self.send_power_to_wheels()
+		self.enable_stabilizers()
 ```
 
-+ This way, the user only needs to call the `startCar()` method to start the car.
++ This way, the user only needs to call the `start_car()` method to start the car.

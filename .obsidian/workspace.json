@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Object Oriented Concepts/Inheritance.md",
+                "file": "Object Oriented Concepts/Methods.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Object Oriented Concepts/Inheritance.md",
+                "file": "Object Oriented Concepts/Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Object Oriented Concepts/Inheritance.md",
+                "file": "Object Oriented Concepts/Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Object Oriented Concepts/Inheritance.md"
+                "file": "Object Oriented Concepts/Methods.md"
               }
             }
           },
@@ -160,12 +160,19 @@
   },
   "active": "23353ec082a81861",
   "lastOpenFiles": [
+    "Object Oriented Concepts/Abstraction.md~",
+    "Object Oriented Concepts/Methods.md~",
+    "Object Oriented Concepts/Why Object Oriented Programming.md",
+    "Object Oriented Concepts/Methods.md",
+    "Object Oriented Concepts/General Syntax.md~",
+    "Object Oriented Concepts/Classes & Objects.md",
+    "Object Oriented Concepts/General Syntax.md",
+    "Object Oriented Concepts/Classes & Objects.md~",
+    "Object Oriented Concepts/Inheritance.md",
     "Object Oriented Concepts/Inheritance.md~",
     "Object Oriented Concepts/Polymorphism.md",
     "Solid Principles/Single Responsibility Principle.md",
     "Object Oriented Concepts/Polymorphism.md~",
-    "Object Oriented Concepts/Inheritance.md",
-    "Object Oriented Concepts/Abstraction.md~",
     "Object Oriented Concepts/Abstraction.md",
     "Object Oriented Concepts/Encapsulation.md~",
     "Solid Principles/Open Closed Principle.md",
@@ -176,9 +183,6 @@
     "Object Oriented Concepts",
     "Solid Principles/Dependency Inversion Principle.md~",
     "Solid Principles/Interface Segregation Principle.md~",
-    "Solid Principles/Interface Segregation Principle",
-    "Solid Principles/Liskov Substitution Principle.md~",
-    "Solid Principles/Open Closed Principle.md~",
     "Docker/Layers.md",
     "Docker/Docker Repositories.md",
     "Docker/Building Images.md",
@@ -190,10 +194,6 @@
     "Protobufs/ProtoBufs In Golang.md",
     "Protobufs/NestedMessages.md",
     "Protobufs/RepeatedFields.md",
-    "Protobufs/Tags.md",
-    "Protobufs/Compiling.md",
-    "Golang/Channels.md",
-    "Golang/Goroutines.md",
-    "Golang/Functions.md"
+    "Protobufs/Tags.md"
   ]
 }
