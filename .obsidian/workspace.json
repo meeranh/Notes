@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Object Oriented Concepts/Methods.md",
+                "file": "Object Oriented Concepts/Polymorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Object Oriented Concepts/Methods.md",
+                "file": "Object Oriented Concepts/Polymorphism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Object Oriented Concepts/Methods.md",
+                "file": "Object Oriented Concepts/Polymorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Object Oriented Concepts/Methods.md"
+                "file": "Object Oriented Concepts/Polymorphism.md"
               }
             }
           },
@@ -160,29 +160,33 @@
   },
   "active": "23353ec082a81861",
   "lastOpenFiles": [
+    "Object Oriented Concepts/Abstract Base Class.md~",
+    "Object Oriented Concepts/Abstract Base Class.md",
+    "Object Oriented Concepts/Polymorphism.md~",
+    "Object Oriented Concepts/Access Modifiers.md",
+    "Object Oriented Concepts/Getters & Setters.md~",
+    "Object Oriented Concepts/Getters & Setters.md",
+    "Object Oriented Concepts/Access Modifiers.md~",
+    "Object Oriented Concepts/4913",
+    "Object Oriented Concepts/Encapsulation.md",
+    "Object Oriented Concepts/Why Object Oriented Programming.md",
+    "Object Oriented Concepts/Inheritance.md",
+    "Object Oriented Concepts/Inheritance.md~",
+    "Object Oriented Concepts/Methods.md",
     "Object Oriented Concepts/Abstraction.md~",
     "Object Oriented Concepts/Methods.md~",
-    "Object Oriented Concepts/Why Object Oriented Programming.md",
-    "Object Oriented Concepts/Methods.md",
     "Object Oriented Concepts/General Syntax.md~",
     "Object Oriented Concepts/Classes & Objects.md",
     "Object Oriented Concepts/General Syntax.md",
     "Object Oriented Concepts/Classes & Objects.md~",
-    "Object Oriented Concepts/Inheritance.md",
-    "Object Oriented Concepts/Inheritance.md~",
     "Object Oriented Concepts/Polymorphism.md",
     "Solid Principles/Single Responsibility Principle.md",
-    "Object Oriented Concepts/Polymorphism.md~",
     "Object Oriented Concepts/Abstraction.md",
     "Object Oriented Concepts/Encapsulation.md~",
     "Solid Principles/Open Closed Principle.md",
     "Solid Principles/Liskov Substitution Principle.md",
     "Solid Principles/Interface Segregation Principle.md",
     "Solid Principles/Dependency Inversion Principle.md",
-    "Object Oriented Concepts/Encapsulation.md",
-    "Object Oriented Concepts",
-    "Solid Principles/Dependency Inversion Principle.md~",
-    "Solid Principles/Interface Segregation Principle.md~",
     "Docker/Layers.md",
     "Docker/Docker Repositories.md",
     "Docker/Building Images.md",
@@ -191,9 +195,6 @@
     "Protobufs/Serializaion & Deserialization.md",
     "Protobufs/DataTypes.md",
     "Protobufs/Data Types.md",
-    "Protobufs/ProtoBufs In Golang.md",
-    "Protobufs/NestedMessages.md",
-    "Protobufs/RepeatedFields.md",
-    "Protobufs/Tags.md"
+    "Protobufs/ProtoBufs In Golang.md"
   ]
 }
