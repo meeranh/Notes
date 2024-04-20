@@ -1,3 +1,6 @@
 {
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "newFileLocation": "root",
+  "newFileFolderPath": "",
+  "attachmentFolderPath": "./Attachments"
 }
