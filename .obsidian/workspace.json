@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Pandas.md",
-                "mode": "source",
+                "file": "Machine Learning/Data Preprocessing.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Pandas.md",
+                "file": "Machine Learning/Data Preprocessing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Pandas.md",
+                "file": "Machine Learning/Data Preprocessing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Pandas.md"
+                "file": "Machine Learning/Data Preprocessing.md"
               }
             }
           },
@@ -160,12 +160,20 @@
   },
   "active": "4a6e2d3cb357b843",
   "lastOpenFiles": [
+    "Machine Learning/Data Preprocessing.md~",
+    "Machine Learning/Matplotlib.md",
+    "Machine Learning/Data Preprocessing.md",
+    "Machine Learning/Pandas.md",
+    "Machine Learning/Feature Scaling.md",
+    "Machine Learning/Encoding Categorical Data.md~",
+    "Machine Learning/4913",
+    "Machine Learning/Encoding Categorical Data.md",
+    "Machine Learning/Feature Scaling.md~",
+    "Machine Learning/Attachments/Pasted image 20240422153859.png",
     "Machine Learning/Data Cleaning.md~",
     "Machine Learning/Data Cleaning.md",
     "Machine Learning/The Machine Learning Process.md",
-    "Machine Learning/Pandas.md",
     "Machine Learning/Numpy.md",
-    "Machine Learning/Matplotlib.md",
     "Machine Learning/Attachments/Pasted image 20240420152928.png",
     "Machine Learning/Matplotlib.md~",
     "Machine Learning/Attachments/Pasted image 20240420151852.png",
@@ -176,22 +184,14 @@
     "Machine Learning/Attachments/Pasted image 20240420145958.png",
     "Machine Learning/Attachments/Pasted image 20240420150404.png",
     "Machine Learning/Attachments/Pasted image 20240420145910.png",
-    "Machine Learning/Attachments/Pasted image 20240420145850.png",
     "Machine Learning/Numpy.md~",
     "Machine Learning/Attachments",
     "Machine Learning/Pandas.md~",
-    "Machine Learning/Feature Scaling.md",
-    "Machine Learning/Data Preprocessing.md~",
-    "Machine Learning/Data Preprocessing.md",
-    "Machine Learning/Feature Scaling.md~",
     "Object Oriented Concepts/Polymorphism.md",
     "Object Oriented Concepts/Abstract Base Class.md~",
     "Object Oriented Concepts/Abstract Base Class.md",
-    "Object Oriented Concepts/Polymorphism.md~",
     "Object Oriented Concepts/Access Modifiers.md",
-    "Object Oriented Concepts/Getters & Setters.md~",
     "Object Oriented Concepts/Getters & Setters.md",
-    "Object Oriented Concepts/Access Modifiers.md~",
     "Object Oriented Concepts/Encapsulation.md",
     "Object Oriented Concepts/Why Object Oriented Programming.md",
     "Object Oriented Concepts/Inheritance.md",
@@ -204,7 +204,6 @@
     "Solid Principles/Liskov Substitution Principle.md",
     "Solid Principles/Interface Segregation Principle.md",
     "Solid Principles/Dependency Inversion Principle.md",
-    "Docker/Layers.md",
-    "Docker/Docker Repositories.md"
+    "Docker/Layers.md"
   ]
 }
