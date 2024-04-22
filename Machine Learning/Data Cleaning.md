@@ -109,6 +109,7 @@ df['Name'] = df['Name'].str.strip('.+_')
 # Replace
 + You have the ability to replace a string of text with another.
 + Say that you have a bunch of data containing the word 'Mister' and you want to replace it with 'Mr'.
++ Lets also say that you want to remove the starting 0s from the phone number.
 + An example table is as follows:
 
 | Name          | Phone Number  | Gender    |
@@ -119,6 +120,7 @@ df['Name'] = df['Name'].str.strip('.+_')
 
 
 + You can do this using the `str.replace()` method.
++ This function also has Regex support, which you will see in the example below.
 ```python
 import pandas as pd
 
@@ -126,12 +128,36 @@ df = pd.read_csv('data.csv')
 
 df['Name'] = df['Name'].str.replace('Mister', 'Mr')
 df['Name'] = df['Name'].str.replace('Missus', 'Mrs')
+df['Phone Number'] = df['Phone Number'].str.replace('^0', '')
 ```
 
 + Now, when we do this, the dataset will look like this:
 
-| Name       | Phone Number  | Gender    |
-|------------|---------------|-----------|
-| Mr Meeran  | 076-6395-949  | Male      |
-| Mr Kamal   | 077-6788-541  | Male      |
-| Mrs Kamala | 076-2315-929  | Female    |
+| Name       | Phone Number | Gender    |
+|------------|--------------|-----------|
+| Mr Meeran  | 76-6395-949  | Male      |
+| Mr Kamal   | 77-6788-541  | Male      |
+| Mrs Kamala | 76-2315-929  | Female    |
+
+# Apply
++ You might want to perform some kind of a function on each cell in a column.
++ The `apply()` method is used for this.
++ Basically, you can create a function that takes in 1 parameter.
++ You can then pass this function into `apply()`.
++ Whatever you return from your custom function will be replaced in the cell.
++ Lets say that you want to capitalize all the data in the name column:
+```python
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+df['Name'] = df['Name'].apply(lambda x: x.capitalize())
+```
+
++ This will convert the `Name` column to the following:
+
+| Name       |
+|------------|
+| MR MEERAN  |
+| MR KAMAL   |
+| MRS KAMALA |
