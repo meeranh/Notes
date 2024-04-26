@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package person;
+option go_package = "./";
+
+import "mental.proto";
+import "physical.proto";
+
+message Person {
+	mental.Mental brain = 1;
+	physical.Physical body = 2;
+}
