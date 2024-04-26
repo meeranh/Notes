@@ -11,8 +11,12 @@
             "id": "4a6e2d3cb357b843",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Azure/Availability Set.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Azure/Availability Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Azure/Availability Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Azure/Availability Set.md"
+              }
             }
           },
           {
@@ -152,6 +160,12 @@
   },
   "active": "4a6e2d3cb357b843",
   "lastOpenFiles": [
+    "Azure/Availability Set.md~",
+    "Azure/Regions & Zones.md",
+    "Azure/Resource Groups.md",
+    "Azure/Virtual Machines.md",
+    "Azure/Availability Set.md",
+    "Azure/Virtual Machines.md~",
     "gRPC/Examples/unary/server/main.go",
     "gRPC/Examples/unary/proto/hello.proto",
     "gRPC/Examples/unary/client/main.go",
@@ -160,9 +174,6 @@
     "gRPC/Examples/server_streaming/client/client.go",
     "gRPC/Examples/client_streaming/server/server.go",
     "gRPC/Examples/client_streaming/proto/hello.proto",
-    "gRPC/Examples/bidirectional_streaming/server/server.go",
-    "gRPC/Examples/client_streaming/client/client.go",
-    "gRPC/Examples/bidirectional_streaming/proto/hello.proto",
     "Solid Principles/Single Responsibility Principle.md",
     "Solid Principles/Open Closed Principle.md",
     "Solid Principles/Liskov Substitution Principle.md",
@@ -184,10 +195,6 @@
     "Protobufs/Compiling.md",
     "Protobufs/Comments.md",
     "Object Oriented Concepts/Why Object Oriented Programming.md",
-    "Object Oriented Concepts/Polymorphism.md",
-    "Object Oriented Concepts/Methods.md",
-    "Object Oriented Concepts/Inheritance.md",
-    "Object Oriented Concepts/Getters & Setters.md",
     "Machine Learning/Attachments/Pasted image 20240422221443.png",
     "Machine Learning/Attachments/Pasted image 20240422201804.png",
     "Machine Learning/Attachments/Pasted image 20240422194853.png",
