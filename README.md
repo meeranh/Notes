@@ -2,6 +2,10 @@
 + I document everything I learn here.
 + You can learn from these too! These are Obsidian notes, so you will need to clone this repository and open it as a vault on Obsidian.
 
+
+https://github.com/meeranh/Notes/assets/102342274/aad65454-5489-4c7d-b357-87216de1ce3c
+
+
 # Usage Instructions
 + You will be needing the following software:
     1. [Obsidian](https://obsidian.md/)
