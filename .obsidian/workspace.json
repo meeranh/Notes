@@ -11,12 +11,8 @@
             "id": "4a6e2d3cb357b843",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Azure/Regions & Zones.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure/Regions & Zones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Azure/Regions & Zones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Azure/Regions & Zones.md"
-              }
+              "state": {}
             }
           },
           {
@@ -160,6 +152,9 @@
   },
   "active": "4a6e2d3cb357b843",
   "lastOpenFiles": [
+    "README.md~",
+    "README.md",
+    "Azure/Regions & Zones.md",
     "Azure/Regions & Zones.md~",
     "Machine Learning/Linear Regression.md",
     "Golang/Packages & Modules.md",
@@ -190,7 +185,6 @@
     "Machine Learning/Attachments/Pasted image 20240420150247.png",
     "Machine Learning/Numpy.md~",
     "Machine Learning/Attachments",
-    "Machine Learning/Pandas.md~",
     "Object Oriented Concepts/Polymorphism.md",
     "Object Oriented Concepts/Abstract Base Class.md",
     "Object Oriented Concepts/Access Modifiers.md",
@@ -203,8 +197,6 @@
     "Object Oriented Concepts/General Syntax.md",
     "Solid Principles/Single Responsibility Principle.md",
     "Object Oriented Concepts/Abstraction.md",
-    "Solid Principles/Open Closed Principle.md",
-    "Solid Principles/Liskov Substitution Principle.md",
-    "Solid Principles/Interface Segregation Principle.md"
+    "Solid Principles/Open Closed Principle.md"
   ]
 }

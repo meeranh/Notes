@@ -1,8 +1,0 @@
-syntax = "proto3";
-package chat;
-option go_package = "github.com/meeranh/protobuf";
-
-message Chat {
-	uint32 id = 1;
-	string msg = 2;
-}

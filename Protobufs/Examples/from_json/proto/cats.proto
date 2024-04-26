@@ -1,8 +1,0 @@
-syntax = "proto3";
-package cats;
-option go_package = "github.com/meeranh/protobuf";
-
-message Cats {
-	sint32 id = 1;
-	string name = 2;
-}

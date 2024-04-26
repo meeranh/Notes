@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option go_package = "./";
-import "street.proto";
-
-message Address {
-	string address_line = 1;
-	Street street = 2;
-}
