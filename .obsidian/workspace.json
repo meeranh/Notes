@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Golang/Packages & Modules.md",
+                "file": "Azure/Regions & Zones.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Golang/Packages & Modules.md",
+                "file": "Azure/Regions & Zones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Golang/Packages & Modules.md",
+                "file": "Azure/Regions & Zones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Golang/Packages & Modules.md"
+                "file": "Azure/Regions & Zones.md"
               }
             }
           },
@@ -160,7 +160,9 @@
   },
   "active": "4a6e2d3cb357b843",
   "lastOpenFiles": [
+    "Azure/Regions & Zones.md~",
     "Machine Learning/Linear Regression.md",
+    "Golang/Packages & Modules.md",
     "Machine Learning/Linear Regression.md~",
     "Machine Learning/Attachments/Pasted image 20240422221443.png",
     "Machine Learning/Attachments/Pasted image 20240422201804.png",
@@ -203,7 +205,6 @@
     "Object Oriented Concepts/Abstraction.md",
     "Solid Principles/Open Closed Principle.md",
     "Solid Principles/Liskov Substitution Principle.md",
-    "Solid Principles/Interface Segregation Principle.md",
-    "Solid Principles/Dependency Inversion Principle.md"
+    "Solid Principles/Interface Segregation Principle.md"
   ]
 }
