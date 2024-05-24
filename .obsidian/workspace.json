@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Azure/Availability Set.md",
+                "file": "Docker/Internal Workings.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure/Availability Set.md",
+                "file": "Docker/Internal Workings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Azure/Availability Set.md",
+                "file": "Docker/Internal Workings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Azure/Availability Set.md"
+                "file": "Docker/Internal Workings.md"
               }
             }
           },
@@ -160,11 +160,31 @@
   },
   "active": "4a6e2d3cb357b843",
   "lastOpenFiles": [
+    "Docker/Image Housekeeping.md",
+    "Docker/Named Containers.md",
+    "Certified In Cybersecurity/Security Operations/Security Operations.md",
+    "Certified In Cybersecurity/Security Concepts/Security Principles.md",
+    "Certified In Cybersecurity/Security Concepts/Security Concepts.md",
+    "Certified In Cybersecurity/Risk Management/Risk Management.md",
+    "Certified In Cybersecurity/Network Security/Network Security.md",
+    "Certified In Cybersecurity/Business Continuity controls/L2.IncidentResponse.BusinessContinuity.md",
+    "Certified In Cybersecurity/Access Control Concepts/Access Control Concepts.md",
+    "Azure/AZ-900/Availability Set.md",
+    "Machine Learning/Data Preprocessing.md",
+    "Machine Learning/Pandas.md",
+    "Machine Learning/Data Cleaning.md",
+    "Machine Learning/Linear Regression.md",
+    "Azure/Scale Sets.md",
+    "Azure/Scale Sets.md~",
+    "Azure/Attachments/Pasted image 20240429114945.png",
+    "Azure/Attachments",
+    "Azure/Availability Set.md",
     "Azure/Availability Set.md~",
+    "Machine Learning/Numpy.md",
+    "Machine Learning/Matplotlib.md",
     "Azure/Regions & Zones.md",
     "Azure/Resource Groups.md",
     "Azure/Virtual Machines.md",
-    "Azure/Availability Set.md",
     "Azure/Virtual Machines.md~",
     "gRPC/Examples/unary/server/main.go",
     "gRPC/Examples/unary/proto/hello.proto",
@@ -172,29 +192,11 @@
     "gRPC/Examples/server_streaming/proto/hello.proto",
     "gRPC/Examples/server_streaming/server/server.go",
     "gRPC/Examples/server_streaming/client/client.go",
-    "gRPC/Examples/client_streaming/server/server.go",
-    "gRPC/Examples/client_streaming/proto/hello.proto",
     "Solid Principles/Single Responsibility Principle.md",
     "Solid Principles/Open Closed Principle.md",
     "Solid Principles/Liskov Substitution Principle.md",
     "Solid Principles/Interface Segregation Principle.md",
     "Solid Principles/Dependency Inversion Principle.md",
-    "Protobufs/Tags.md",
-    "Protobufs/Serializaion & Deserialization.md",
-    "Protobufs/Reserved.md",
-    "Protobufs/RepeatedFields.md",
-    "Protobufs/Protoc Advanced.md",
-    "Protobufs/ProtoBufs In Golang.md",
-    "Protobufs/Oneof.md",
-    "Protobufs/NestedMessages.md",
-    "Protobufs/Maps.md",
-    "Protobufs/JSON.md",
-    "Protobufs/Imports & Packages.md",
-    "Protobufs/Enums.md",
-    "Protobufs/Data Types.md",
-    "Protobufs/Compiling.md",
-    "Protobufs/Comments.md",
-    "Object Oriented Concepts/Why Object Oriented Programming.md",
     "Machine Learning/Attachments/Pasted image 20240422221443.png",
     "Machine Learning/Attachments/Pasted image 20240422201804.png",
     "Machine Learning/Attachments/Pasted image 20240422194853.png",
@@ -203,7 +205,6 @@
     "Machine Learning/Attachments/Pasted image 20240420152928.png",
     "Machine Learning/Attachments/Pasted image 20240420151852.png",
     "Machine Learning/Attachments/Pasted image 20240420151646.png",
-    "Machine Learning/Attachments/Pasted image 20240420151131.png",
-    "Machine Learning/Attachments/Pasted image 20240420150404.png"
+    "Machine Learning/Attachments/Pasted image 20240420151131.png"
   ]
 }
