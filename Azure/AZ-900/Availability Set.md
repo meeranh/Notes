@@ -38,3 +38,14 @@
 + Basically, you are telling Azure to run your VM on different racks in the same data center.
 
 ## Update Domains
++ These are separate machines in the same data center.
++ When a cloud provider pushes new features to production, they take down one update domain at a time.
++ Therefore, if you have five update domains, the updates will be pushed to one update domain at a time.
++ So, your VM will still be available even when the updates are being pushed.
+
+## Differences Between Fault & Update Domains
+
+| Fault Domains                                 | Update Domains                                |
+|-----------------------------------------------|-----------------------------------------------|
+| Different physical machines                   | Different logical groupings of machines       |
+| Meant to protect against hardware failures    | Meant to protect against planned maintenance  |
