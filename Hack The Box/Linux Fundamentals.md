@@ -131,3 +131,57 @@ If you wanted to customize your prompt, maybe using `.bashrc`, you can use the f
 
 ## Viewing Files As A Tree
 + You can view parent folders as a tree using the `tree .` command.
+
+## Grep
++ You can filter out a specific word (or Regex) from a file using the `grep` command.
++ If you run `cat file.txt | grep someWord`, it will only show lines that contain `someWord`.
++ However, if you run `cat file.txt | grep -v someWord`, it will show all lines that do not contain `someWord`.
++ If you are going to specify some advanced Regex, you should be using the `grep -E` flag as it allows you to use **Extended Regex**.
+
+## Cut
++ `cut` allows you to separate out a text file that uses a delimiter to separate values.
++ For example, lets take the following text file:
+```text
+Hello:This:Is:My:Attempt:To:Learn:Cut
+I:Am:Trying:To:Learn:Cut
+But:I:Am:Not:Sure:How:To:Use:It
+Maybe:You:Can:Help:Me:Out
+```
+
++ You can separate values into columns using the following command `cut -d ':' -f 1`
+    + `-d` is the delimiter
+    + `-f` is the field number
+
++ The output of that command will be as follows:
+```bash
+Hello
+I
+But
+Maybe
+```
+
+## Tr
++ This is basically a character search-and-replace tool. The usage is very simple:
++ `cat file | tr "characters" "whatToReplaceItWith"`
++ So as the first argument, you specify what characters to match, and the second argument is you specify what to replace the matches with.
++ The important thing is it matches all **characters** that you specify, not a word.
+
+## Column
++ Lets say that you have an output that represents a columnar format where each column is separated by a whitespace, you can pipe the input into the `column -t` command. What the `-t` does is it specifies that we need a table.
+
+## Awk
++ This builds on the `cut` command, but is more powerful.
++ Lets say you wanted to `cut` the first and last column of a file, you can use the following command:
+```bash
+awk '{print $1, $NF}' file.txt
+```
++ `$NF` stands for Number of Fields, and will always return the last field.
+
+## Sed
++ Lets say you wanted to replace a specific word with another word.
++ You can do this with `sed`, its basically a Regex search-and-replace.
++ You can replace all words that say 'usr' to 'user' in the /etc/passwd file using this:
+```bash
+sed 's/usr/user/g' /etc/passwd
+```
++ The `s` stands for substitute, the `g` stands for global (replace all occurrences).
