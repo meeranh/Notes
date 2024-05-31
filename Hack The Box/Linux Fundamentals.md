@@ -132,13 +132,14 @@ If you wanted to customize your prompt, maybe using `.bashrc`, you can use the f
 ## Viewing Files As A Tree
 + You can view parent folders as a tree using the `tree .` command.
 
-## Grep
+## Filter Content
+### Grep
 + You can filter out a specific word (or Regex) from a file using the `grep` command.
 + If you run `cat file.txt | grep someWord`, it will only show lines that contain `someWord`.
 + However, if you run `cat file.txt | grep -v someWord`, it will show all lines that do not contain `someWord`.
 + If you are going to specify some advanced Regex, you should be using the `grep -E` flag as it allows you to use **Extended Regex**.
 
-## Cut
+### Cut
 + `cut` allows you to separate out a text file that uses a delimiter to separate values.
 + For example, lets take the following text file:
 ```text
@@ -160,16 +161,16 @@ But
 Maybe
 ```
 
-## Tr
+### Tr
 + This is basically a character search-and-replace tool. The usage is very simple:
 + `cat file | tr "characters" "whatToReplaceItWith"`
 + So as the first argument, you specify what characters to match, and the second argument is you specify what to replace the matches with.
 + The important thing is it matches all **characters** that you specify, not a word.
 
-## Column
+### Column
 + Lets say that you have an output that represents a columnar format where each column is separated by a whitespace, you can pipe the input into the `column -t` command. What the `-t` does is it specifies that we need a table.
 
-## Awk
+### Awk
 + This builds on the `cut` command, but is more powerful.
 + Lets say you wanted to `cut` the first and last column of a file, you can use the following command:
 ```bash
@@ -177,7 +178,7 @@ awk '{print $1, $NF}' file.txt
 ```
 + `$NF` stands for Number of Fields, and will always return the last field.
 
-## Sed
+### Sed
 + Lets say you wanted to replace a specific word with another word.
 + You can do this with `sed`, its basically a Regex search-and-replace.
 + You can replace all words that say 'usr' to 'user' in the /etc/passwd file using this:
@@ -185,3 +186,45 @@ awk '{print $1, $NF}' file.txt
 sed 's/usr/user/g' /etc/passwd
 ```
 + The `s` stands for substitute, the `g` stands for global (replace all occurrences).
+
+## Linux Permissions
+### Users and Groups
++ In Linux, all users are part of a group. Users with `sudo` access are part of the `wheel` group.
++ When assigning permissions to a file, we can assign per group, so that permission applies to everyone in that group.
++ A file has 3 permission scopes & 3 permission levels:
+**Permission Scopes**
+1. Owner/User - `u`
+2. Group - `g`
+3. Others - `o`
+
+**Permission Levels**
+1. Read - `r`
+2. Write - `w`
+3. Execute - `x`
+
+### Assigning Permissions
++ You can assign permissions to a file using the `chmod` command.
+```bash
+chmod u+x file.txt # Adds execute permission to the owner
+chmod g-w file.txt # Removes write permission from the group
+chmod o-r file.txt # Removes read permission from others
+```
+
++ You can use the octal notation also, lets say that you wanted to assign the following to a file:
+1. User: Read, write, execute *(111)*
+2. Group: Read, execute *(101)*
+3. Others: Execute *(001)*
+
++ The notation above is in binary, if we convert each to decimal, it looks like this
+1. User: Read, write, execute *(7)*
+2. Group: Read, execute *(5)*
+3. Others: Execute *(1)*
+
++ So, we can run `chmod 751 file.txt` to assign the permissions.
+
+### Change Owner
++ The `chown` command is used to change an owner of a file.
++ This is the example syntax:
+```bash
+chown <user>:<group> file.txt
+```
